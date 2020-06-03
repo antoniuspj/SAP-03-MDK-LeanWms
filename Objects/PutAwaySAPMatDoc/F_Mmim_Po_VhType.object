@@ -1,0 +1,44 @@
+{
+	"Collection": [
+		"F_Mmim_Po_Vh"
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "PurchaseOrder",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Supplier",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "SupplierName",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "PurchasingOrganization",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "PurchasingGroup",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "PurchasingDocumentType",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "AuthorizationGroup",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/SoltiusInnovMdk/Services/PutAwaySAPMatDoc.service",
+	"_Name": "F_Mmim_Po_VhType"
+}

@@ -1,0 +1,5 @@
+{
+	"ModalPage": false,
+	"PageToOpen": "/SoltiusInnovMdk/Pages/PutAway/PutawayProcess_List_Detail_Item.page",
+	"_Type": "Action.Type.Navigation"
+}

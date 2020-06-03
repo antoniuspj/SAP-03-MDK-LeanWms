@@ -1,0 +1,84 @@
+{
+	"ActionBar": {
+		"Items": [
+			{
+				"OnPress": "/SoltiusInnovMdk/Actions/GoodsReceipt/UpdateData.action",
+				"Position": "Right",
+				"SystemItem": "Save",
+				"Text": "Item",
+				"Visible": true
+			}
+		]
+	},
+	"Caption": "Detail of Purchase Order Item",
+	"Controls": [
+		{
+			"Sections": [
+				{
+					"Controls": [
+						{
+							"Caption": "Po Item",
+							"IsEditable": false,
+							"IsVisible": true,
+							"PlaceHolder": "Item Number",
+							"Value": "{Poitem}",
+							"_Name": "InputPoItem",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						},
+						{
+							"Caption": "Material Number",
+							"IsEditable": false,
+							"IsVisible": true,
+							"PlaceHolder": "PlaceHolder",
+							"Value": "{Material}",
+							"_Name": "InputMatNum",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						},
+						{
+							"Caption": "Material Description",
+							"IsEditable": false,
+							"IsVisible": true,
+							"PlaceHolder": "PlaceHolder",
+							"Value": "{ShortText}",
+							"_Name": "InputMatDesc",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						},
+						{
+							"Caption": "Plant",
+							"IsEditable": false,
+							"IsVisible": true,
+							"PlaceHolder": "PlaceHolder",
+							"Value": "{Plant}",
+							"_Name": "InputPlant",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						},
+						{
+							"Caption": "Storage Location",
+							"IsEditable": false,
+							"IsVisible": true,
+							"PlaceHolder": "PlaceHolder",
+							"Value": "{Storeloc}",
+							"_Name": "InputSloc",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						},
+						{
+							"Caption": "Quantity",
+							"IsEditable": true,
+							"IsVisible": true,
+							"KeyboardType": "Number",
+							"PlaceHolder": "PlaceHolder",
+							"Value": "{Quantity}",
+							"_Name": "InputQty",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						}
+					],
+					"Visible": true
+				}
+			],
+			"_Name": "FormCellContainer0",
+			"_Type": "Control.Type.FormCellContainer"
+		}
+	],
+	"_Name": "GoodsReceiptEdit",
+	"_Type": "Page"
+}

@@ -1,0 +1,19 @@
+{
+	"Collection": [
+		"I_MaterialStdVH"
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "Material",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Material_Text",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/SoltiusInnovMdk/Services/PutAwaySAPMatDoc.service",
+	"_Name": "I_MaterialStdVHType"
+}

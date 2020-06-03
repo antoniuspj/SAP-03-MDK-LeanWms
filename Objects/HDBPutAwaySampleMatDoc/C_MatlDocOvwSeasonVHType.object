@@ -1,0 +1,29 @@
+{
+	"Collection": [
+		"C_MatlDocOvwSeasonVH"
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "ProductSeasonYear",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "ProductSeason",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "ProductCollection",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "ProductTheme",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/SoltiusInnovMdk/Services/HDBPutAwaySampleMatDoc.service",
+	"_Name": "C_MatlDocOvwSeasonVHType"
+}

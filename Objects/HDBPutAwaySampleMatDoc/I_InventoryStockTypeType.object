@@ -1,0 +1,19 @@
+{
+	"Collection": [
+		"I_InventoryStockType"
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "InventoryStockType",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "InventoryStockType_Text",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/SoltiusInnovMdk/Services/HDBPutAwaySampleMatDoc.service",
+	"_Name": "I_InventoryStockTypeType"
+}

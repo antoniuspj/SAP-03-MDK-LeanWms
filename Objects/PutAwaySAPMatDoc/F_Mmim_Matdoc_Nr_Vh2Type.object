@@ -1,0 +1,19 @@
+{
+	"Collection": [
+		"F_Mmim_Matdoc_Nr_Vh2"
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "MaterialDocument",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "MaterialDocumentYear",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/SoltiusInnovMdk/Services/PutAwaySAPMatDoc.service",
+	"_Name": "F_Mmim_Matdoc_Nr_Vh2Type"
+}

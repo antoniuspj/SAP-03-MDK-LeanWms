@@ -1,0 +1,78 @@
+{
+	"Caption": "Put Away Detail",
+	"Controls": [
+		{
+			"Sections": [
+				{
+					"ObjectHeader": {
+						"DetailImageIsCircular": false,
+						"HeadlineText": "{MaterialDocument}",
+						"Subhead": "{DeliveryDocument}",
+						"Tags": [
+							"matdoc"
+						],
+						"Target": {
+							"EntitySet": "F_Mmim_Matdoc_Item",
+							"Service": "/SoltiusInnovMdk/Services/PutAwaySAPMatDoc.service"
+						}
+					},
+					"Visible": true,
+					"_Name": "SectionObjectHeader0",
+					"_Type": "Section.Type.ObjectHeader"
+				},
+				{
+					"EmptySection": {
+						"FooterVisible": false
+					},
+					"Layout": {
+						"NumberOfColumns": 1
+					},
+					"SimplePropertyCells": [
+						{
+							"SimplePropertyCell": {
+								"AccessoryType": "disclosureIndicator",
+								"KeyName": "List Item Material Document Goods Receipt",
+								"Value": "{AISLE}",
+								"Visible": true
+							}
+						}
+					],
+					"Visible": true,
+					"_Name": "SectionSimplePropertyCollection1",
+					"_Type": "Section.Type.SimplePropertyCollection"
+				},
+				{
+					"EmptySection": {
+						"FooterVisible": false
+					},
+					"ObjectCell": {
+						"AccessoryType": "none",
+						"Description": "Description",
+						"DetailImageIsCircular": false,
+						"OnPress": "/SoltiusInnovMdk/Actions/PutAway/Navigation/NavTo_PutawayProcess_Edit_Item.action",
+						"PreserveIconStackSpacing": true,
+						"StatusText": "{Plant}",
+						"Subhead": "{MaterialName}",
+						"SubstatusText": "{StorageLocation}",
+						"Title": "{Material}"
+					},
+					"Search": {
+						"BarcodeScanner": true,
+						"Enabled": true
+					},
+					"Target": {
+						"EntitySet": "F_Mmim_Matdoc_Item",
+						"Service": "/SoltiusInnovMdk/Services/PutAwaySAPMatDoc.service"
+					},
+					"Visible": true,
+					"_Name": "SectionObjectTable0",
+					"_Type": "Section.Type.ObjectTable"
+				}
+			],
+			"_Name": "SectionedTable0",
+			"_Type": "Control.Type.SectionedTable"
+		}
+	],
+	"_Name": "PutAwayProcess_Detail",
+	"_Type": "Page"
+}

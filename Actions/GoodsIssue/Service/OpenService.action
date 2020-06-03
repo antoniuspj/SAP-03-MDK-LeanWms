@@ -1,0 +1,11 @@
+{
+	"ActionResult": {
+		"_Name": "init"
+	},
+	"ActivityIndicatorText": "Please Wait ...",
+	"OnFailure": "/SoltiusInnovMdk/Actions/GoodsIssue/Service/CreateOpenServiceFailureMessage.action",
+	"OnSuccess": "/SoltiusInnovMdk/Actions/GoodsIssue/Service/CreateOpenServiceSuccessMessage.action",
+	"Service": "/SoltiusInnovMdk/Services/GoodsIssueHDBAllEntity.service",
+	"ShowActivityIndicator": true,
+	"_Type": "Action.Type.ODataService.Open"
+}

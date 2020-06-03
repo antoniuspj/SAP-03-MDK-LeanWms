@@ -1,0 +1,106 @@
+<html><parsererror xmlns="http://www.w3.org/1999/xhtml" style="display: block; white-space: pre; border: 2px solid #c77; padding: 0 1em 0 1em; margin: 1em; background-color: #fdd; color: black"><h3>This page contains the following errors:</h3><div style="font-family:monospace;font-size:12px">error on line 107 at column 15: Opening and ending tag mismatch: img line 0 and div
+</div><h3>Below is a rendering of the page up to the first error.</h3></parsererror>
+    <head>
+    <title>Error 404 - Not found</title>
+    <style>
+        body {
+            color: #F0AB00;
+            font: 12px Arial,Helvetica,sans-serif;
+            background-repeat: no-repeat;
+            background-size: 100%;
+            height: 100%;
+            margin: 0;
+            background: #000000; /* Old browsers */
+            background: -moz-linear-gradient(top, #000000 55%, #666666 100%); /* FF3.6+ */
+            background: -webkit-gradient(linear, left top, left bottom, color-stop(55%,#000000), color-stop(100%,#666666)); /* Chrome,Safari4+ */
+            background: -webkit-linear-gradient(top, #000000 55%,#666666 100%); /* Chrome10+,Safari5.1+ */
+            background: -o-linear-gradient(top, #000000 55%,#666666 100%); /* Opera11.10+ */
+            background: -ms-linear-gradient(top, #000000 55%,#666666 100%); /* IE10+ */
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#666666',GradientType=0 ); /* IE6-9 */
+            background: linear-gradient(#000000 55%,#666666 100%); /* W3C */
+        }
+        #content {
+            background: #ffffff; /* Old browsers */
+            background: rgba(240, 171, 0, 0.9);
+            border: #FFFFFF 1px solid;
+            color: #222222;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            margin-left: -300px;
+            margin-top: -100px;
+            width: 600px;
+            height: 200px;
+            padding: 10px;
+            font-size: 17px;
+            -webkit-box-reflect: below 10px -webkit-gradient(linear, 0 0, 0 100%, from(transparent), color-stop(.66, transparent), to(#FFF));
+        }
+        #footer {
+            position: absolute;
+            bottom: 0px;
+            left: 50%;
+            text-align: center;
+            width: 220px;
+            margin-left: -110px;
+        }
+        #error h1 {
+            font-weight: normal;
+            font-size: 28px;
+            margin-bottom: 20px;
+            margin-top: 0;
+            color: #ffffff;
+        }
+        #solution {
+            position: absolute;
+            bottom: 10px;
+            left: 10px;
+        }
+        #solution h2 {
+            font-weight: bold;
+            font-size: 16px;
+            color: #ffffff;
+        }
+        #left {
+            width: 480px;
+            float: left;
+        }
+        #right {
+            position: absolute;
+            top: 0;
+            right: 0;
+            color: rgba(0,0,0,0.2);
+            width: 120px;
+            float: right;
+            font-size: 200px;
+            padding-top: 0;
+        }
+        </style>
+    <!--[if lt IE 9]>
+        <style>
+            body {
+                background: #000000;
+            }
+            #content {
+                background: #f0ab00;
+            }
+        </style>
+    <![endif]-->
+    </head>
+    <body>
+        <div id="content">
+            <div id="error">
+                <div id="left">
+                <h1>404 - Not found</h1>
+We could not find the resource you're trying to access.<br/>
+It might be misspelled or currently unavailable.
+</div>
+                <div id="right">?</div>
+            </div>
+            <div id="solution">
+                <h2>Possible solution</h2>Please check the URL or try again later.<br/>
+In case of ongoing problems please contact your system administrator.
+</div>
+        </div>
+       <div id="footer">
+            powered by
+            <img src="data:image/gif;base64,R0lGODlhHwAQAOeKABxivBtlwBpmwBtmvxlqwBlqwRlrwhhuwxhvxBZ1yBN8zBR9zCB6yhCCzhGCzxODzw6I1A+I0xuH0RSK1A2N2BaL1A2P1wuT2xSR2AuU2z6Hzg+W3AqZ3gma3hWY3BaZ3Qef4geg4gih4h6b3gyi4wal5QWm5gen5lKT0x6j4R+j4g2p5wOs6QSs6QKx7QGy7QC38ECm32Kd11Cj3GKi2l2l3GWk216m3D2v5Tiz6DK260Oy5lKu4lSv43Oo20a46U+351605FK46HC04me45ni04n+z4We86Xe85oy34nTC65S85GnK8GrK8KPF53zQ8pHM7YvP75LS8JzR76jP7KXQ7Y3X9KDT75PZ9JjY86vT7qjU75/X8qrV75zZ87fS7KrX8aPZ86nZ8qjb86fd9bfZ8b/X76fg9q/i98De8rDj98Lh9Mfj9brn+Lzn+MDp+dTm9cjq+c/q+Nno9tjp99fr+Nft+dzt+N/u+eDu+N7w+uHw+dzy+9/y++jx+ufy+uTz++j1/PP5/fT6/fX6/fb6/ff6/fv9/vz+//3+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////yH5BAEKAP8ALAAAAAAfABAAQAj+AP/BGEiwoMGDCGH8gzAByR5FELesUbQmQh1FXbpA3Mimwr+PID+CyLIRopcQPzbmCEGmpKI4JELIFBHygIYlX8w4QeHEiQwEQH30dJIEQcijIFuwWMq0qdOnT0GOQKRIzxEPGTJ8GKRIjqJAG8QospNhA1UlGS4gXVCESo0beVyWNKSIjoK7SEMGGMC3r9+/AvLmdfGisOHDiBMr/mjiRJM2fN5Y0dEYjZszJkw8ceNGDRYmKzKLLgFSRSJFXHAI4ZKiQ5iNUjqMUdRnRxSIQDp04HDUwpWNgqBgIKLoUAyIPMAoAhRkCsQeFPI2cODgwYw7xU/jqfJHUaEyiggvpdEyRILgfwz8lDwEEY4NIzTUQ5yTIMH5jwYK6N/Pv38BAveFBMCABBZYYIBHBQQAOw=="></img></div></body></html>

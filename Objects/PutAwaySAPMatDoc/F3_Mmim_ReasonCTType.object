@@ -1,0 +1,24 @@
+{
+	"Collection": [
+		"F3_Mmim_ReasonCT"
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "GoodsMovementType",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "GoodsMovementReasonCode",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "GoodsMovementReasonName",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/SoltiusInnovMdk/Services/PutAwaySAPMatDoc.service",
+	"_Name": "F3_Mmim_ReasonCTType"
+}

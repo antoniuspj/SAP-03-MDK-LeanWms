@@ -1,0 +1,120 @@
+{
+	"ActionBar": {
+		"Items": [
+			{
+				"OnPress": "/SoltiusInnovMdk/Actions/GoodsIssue/CloseModalPage_Cancel.action",
+				"Position": "left",
+				"Text": "Cancel"
+			},
+			{
+				"OnPress": "/SoltiusInnovMdk/Actions/GoodsIssue/OdataAction/GoodsIssue_UpdateEntity.action",
+				"Position": "right",
+				"Text": "Save"
+			}
+		]
+	},
+	"Caption": "Update DeliveryHeaderType",
+	"Controls": [
+		{
+			"Sections": [
+				{
+					"Controls": [
+						{
+							"Caption": "DELIVERYID",
+							"Value": "{DELIVERYID}",
+							"_Name": "DELIVERYID",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						},
+						{
+							"Caption": "GOODSISSUEID",
+							"Value": "{GOODSISSUEID}",
+							"_Name": "GOODSISSUEID",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						},
+						{
+							"Caption": "GOODSISSUEACTUALDATE",
+							"Mode": "Date",
+							"Value": "{GOODSISSUEACTUALDATE}",
+							"_Name": "GOODSISSUEACTUALDATE",
+							"_Type": "Control.Type.FormCell.DatePicker"
+						},
+						{
+							"Caption": "DELIVERYDATE",
+							"Mode": "Date",
+							"Value": "{DELIVERYDATE}",
+							"_Name": "DELIVERYDATE",
+							"_Type": "Control.Type.FormCell.DatePicker"
+						},
+						{
+							"Caption": "DELIVERYPICKINGSTATUSCODE",
+							"Value": "{DELIVERYPICKINGSTATUSCODE}",
+							"_Name": "DELIVERYPICKINGSTATUSCODE",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						},
+						{
+							"Caption": "DELIVERYGOODSISSUESTATUSCODE",
+							"Value": "{DELIVERYGOODSISSUESTATUSCODE}",
+							"_Name": "DELIVERYGOODSISSUESTATUSCODE",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						},
+						{
+							"Caption": "DELIVERYCONFIRMATIONSTATUSCODE",
+							"Value": "{DELIVERYCONFIRMATIONSTATUSCODE}",
+							"_Name": "DELIVERYCONFIRMATIONSTATUSCODE",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						},
+						{
+							"Caption": "SHIPTOPARTYID",
+							"Value": "{SHIPTOPARTYID}",
+							"_Name": "SHIPTOPARTYID",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						},
+						{
+							"Caption": "SHIPTOPARTYNAME",
+							"Value": "{SHIPTOPARTYNAME}",
+							"_Name": "SHIPTOPARTYNAME",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						},
+						{
+							"Caption": "EDITABLESTATUSCODE",
+							"Value": "{EDITABLESTATUSCODE}",
+							"_Name": "EDITABLESTATUSCODE",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						},
+						{
+							"Caption": "CREATEDAT",
+							"Mode": "Date",
+							"Value": "{CREATEDAT}",
+							"_Name": "CREATEDAT",
+							"_Type": "Control.Type.FormCell.DatePicker"
+						},
+						{
+							"Caption": "CREATEBY",
+							"Value": "{CREATEBY}",
+							"_Name": "CREATEBY",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						},
+						{
+							"Caption": "CHANGEDAT",
+							"Mode": "Date",
+							"Value": "{CHANGEDAT}",
+							"_Name": "CHANGEDAT",
+							"_Type": "Control.Type.FormCell.DatePicker"
+						},
+						{
+							"Caption": "CHANGEBY",
+							"Value": "{CHANGEBY}",
+							"_Name": "CHANGEBY",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						}
+					],
+					"Visible": true
+				}
+			],
+			"_Name": "PageOneFormCell",
+			"_Type": "Control.Type.FormCellContainer"
+		}
+	],
+	"_Name": "GoodsIssue_Edit",
+	"_Type": "Page"
+}

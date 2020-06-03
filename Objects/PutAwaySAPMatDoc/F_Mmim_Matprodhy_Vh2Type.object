@@ -1,0 +1,44 @@
+{
+	"Collection": [
+		"F_Mmim_Matprodhy_Vh2"
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "Material",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "SalesOrganization",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "DistributionChannel",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "ProductHierarchy",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "MaterialName",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "ProductHierarchyName",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "AuthorizationGroup",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/SoltiusInnovMdk/Services/PutAwaySAPMatDoc.service",
+	"_Name": "F_Mmim_Matprodhy_Vh2Type"
+}

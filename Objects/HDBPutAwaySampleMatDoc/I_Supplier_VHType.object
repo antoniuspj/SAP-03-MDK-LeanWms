@@ -1,0 +1,34 @@
+{
+	"Collection": [
+		"I_Supplier_VH"
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "Supplier",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "SupplierName",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "AuthorizationGroup",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "SupplierAccountGroup",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "IsBusinessPurposeCompleted",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/SoltiusInnovMdk/Services/HDBPutAwaySampleMatDoc.service",
+	"_Name": "I_Supplier_VHType"
+}

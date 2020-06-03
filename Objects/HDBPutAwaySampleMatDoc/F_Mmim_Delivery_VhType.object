@@ -1,0 +1,34 @@
+{
+	"Collection": [
+		"F_Mmim_Delivery_Vh"
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "DeliveryDocument",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Customer",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "CustomerName",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "ShippingPoint",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "AuthorizationGroup",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/SoltiusInnovMdk/Services/HDBPutAwaySampleMatDoc.service",
+	"_Name": "F_Mmim_Delivery_VhType"
+}

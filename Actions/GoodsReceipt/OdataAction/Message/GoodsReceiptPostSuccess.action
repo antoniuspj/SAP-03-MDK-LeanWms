@@ -1,0 +1,5 @@
+{
+	"Message": "Posting Data Success",
+	"OnSuccess": "/SoltiusInnovMdk/Actions/ClosePage.action",
+	"_Type": "Action.Type.ToastMessage"
+}

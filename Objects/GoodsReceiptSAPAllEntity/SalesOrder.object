@@ -1,0 +1,116 @@
+{
+	"Collection": [
+		"SalesOrderSet"
+	],
+	"NavigationProperties": [
+		{
+			"Key": false,
+			"_Name": "OrderToItems",
+			"_Type": "Collection(SalesOrderItem)"
+		}
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "SoId",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "CreatedBy",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "CreatedAt",
+			"_Type": "Edm.DateTime"
+		},
+		{
+			"Key": false,
+			"_Name": "ChangedBy",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "ChangedAt",
+			"_Type": "Edm.DateTime"
+		},
+		{
+			"Key": false,
+			"_Name": "CreatedByBp",
+			"_Type": "Edm.Boolean"
+		},
+		{
+			"Key": false,
+			"_Name": "ChangedByBp",
+			"_Type": "Edm.Boolean"
+		},
+		{
+			"Key": false,
+			"_Name": "Note",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "BuyerId",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "BuyerName",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "CurrencyCode",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "GrossAmount",
+			"_Type": "Edm.Decimal"
+		},
+		{
+			"Key": false,
+			"_Name": "GrossAmountExt",
+			"_Type": "Edm.Decimal"
+		},
+		{
+			"Key": false,
+			"_Name": "NetAmount",
+			"_Type": "Edm.Decimal"
+		},
+		{
+			"Key": false,
+			"_Name": "NetAmountExt",
+			"_Type": "Edm.Decimal"
+		},
+		{
+			"Key": false,
+			"_Name": "TaxAmount",
+			"_Type": "Edm.Decimal"
+		},
+		{
+			"Key": false,
+			"_Name": "TaxAmountExt",
+			"_Type": "Edm.Decimal"
+		},
+		{
+			"Key": false,
+			"_Name": "LifecycleStatus",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "BillingStatus",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "DeliveryStatus",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/SoltiusInnovMdk/Services/GoodsReceiptSAPAllEntity.service",
+	"_Name": "SalesOrder"
+}

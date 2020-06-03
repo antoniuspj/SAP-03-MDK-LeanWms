@@ -1,0 +1,29 @@
+{
+	"Collection": [
+		"I_MatlDocFixedAssetVH"
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "MasterFixedAsset",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "CompanyCode",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "MasterFixedAssetDescription",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "AssetClass",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/SoltiusInnovMdk/Services/PutAwaySAPMatDoc.service",
+	"_Name": "I_MatlDocFixedAssetVHType"
+}

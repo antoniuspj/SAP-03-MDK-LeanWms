@@ -1,0 +1,29 @@
+{
+	"Collection": [
+		"bin"
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "BIN",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "AISLE",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "POSX",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "POSY",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/SoltiusInnovMdk/Services/PutAwayHDBAllEntity.service",
+	"_Name": "binType"
+}

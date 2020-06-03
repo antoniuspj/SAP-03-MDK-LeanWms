@@ -1,0 +1,61 @@
+{
+	"Caption": "Material Document List",
+	"Controls": [
+		{
+			"Sections": [
+				{
+					"EmptySection": {
+						"FooterVisible": false
+					},
+					"Layout": {
+						"NumberOfColumns": 1
+					},
+					"SimplePropertyCells": [
+						{
+							"SimplePropertyCell": {
+								"AccessoryType": "disclosureIndicator",
+								"KeyName": "List Detail Item",
+								"Value": "{ProductCharacteristic1}",
+								"Visible": true
+							}
+						}
+					],
+					"Visible": true,
+					"_Name": "SectionSimplePropertyCollection1",
+					"_Type": "Section.Type.SimplePropertyCollection"
+				},
+				{
+					"EmptySection": {
+						"FooterVisible": false
+					},
+					"ObjectCell": {
+						"AccessoryType": "none",
+						"Description": "{GoodsmovementType}",
+						"DetailImageIsCircular": false,
+						"OnPress": "/SoltiusInnovMdk/Actions/PutAway/Navigation/NavTo_PutawayProcess_Detail.action",
+						"PreserveIconStackSpacing": false,
+						"StatusText": "{Plant}",
+						"Subhead": "{DeliveryDocument}",
+						"SubstatusText": "{StorageLocation}",
+						"Title": "{MaterialDocument}"
+					},
+					"Search": {
+						"BarcodeScanner": true,
+						"Enabled": true
+					},
+					"Target": {
+						"EntitySet": "F_Mmim_Matdoc_Item",
+						"Service": "/SoltiusInnovMdk/Services/PutAwaySAPMatDoc.service"
+					},
+					"Visible": true,
+					"_Name": "SectionObjectTable1",
+					"_Type": "Section.Type.ObjectTable"
+				}
+			],
+			"_Name": "SectionedTable0",
+			"_Type": "Control.Type.SectionedTable"
+		}
+	],
+	"_Name": "PutawayProcess_LIst_Detail_Item",
+	"_Type": "Page"
+}

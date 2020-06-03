@@ -1,0 +1,39 @@
+{
+	"Collection": [
+		"C_MatlDocOvwCharValueVH"
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "ProductCharacteristic1",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "ProductCharacteristic2",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "ProductCharacteristic3",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "ProductCharacteristic1Desc",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "ProductCharacteristic2Desc",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "ProductCharacteristic3Desc",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/SoltiusInnovMdk/Services/PutAwaySAPMatDoc.service",
+	"_Name": "C_MatlDocOvwCharValueVHType"
+}

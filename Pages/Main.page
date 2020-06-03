@@ -1,0 +1,69 @@
+{
+	"Caption": "Lean Warehouse Management",
+	"Controls": [
+		{
+			"Sections": [
+				{
+					"Buttons": [
+						{
+							"OnPress": "/SoltiusInnovMdk/Actions/GoodsReceipt/Service/CreateService.action",
+							"TextAlignment": "center",
+							"Title": "Goods Receipt",
+							"Visible": true
+						},
+						{
+							"OnPress": "/SoltiusInnovMdk/Actions/GoodsIssue/Service/CreateService.action",
+							"TextAlignment": "center",
+							"Title": "Goods Issue",
+							"Visible": true
+						},
+						{
+							"OnPress": "/SoltiusInnovMdk/Actions/PutAway/Service/Initialize_Offline_Odata_Material_Document.action",
+							"TextAlignment": "center",
+							"Title": "Put Away",
+							"Visible": true
+						},
+						{
+							"TextAlignment": "center",
+							"Title": "Picking",
+							"Visible": true
+						},
+						{
+							"TextAlignment": "center",
+							"Title": "Goods Transfer",
+							"Visible": true
+						},
+						{
+							"TextAlignment": "center",
+							"Title": "Physical Count",
+							"Visible": true
+						}
+					],
+					"EmptySection": {
+						"FooterVisible": false
+					},
+					"Visible": true,
+					"_Name": "SectionButtonTable0",
+					"_Type": "Section.Type.ButtonTable"
+				}
+			],
+			"_Name": "SectionedTable0",
+			"_Type": "Control.Type.SectionedTable"
+		}
+	],
+	"ToolBar": {
+		"Controls": [
+			{
+				"Caption": "Logout",
+				"Clickable": true,
+				"Enabled": true,
+				"OnPress": "/SoltiusInnovMdk/Actions/Logout.action",
+				"Visible": true,
+				"_Name": "LogoutToolbarItem",
+				"_Type": "Control.Type.ToolbarItem"
+			}
+		]
+	},
+	"_Name": "Main",
+	"_Type": "Page"
+}

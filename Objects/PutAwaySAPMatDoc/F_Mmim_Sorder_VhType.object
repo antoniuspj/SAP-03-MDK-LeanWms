@@ -1,0 +1,29 @@
+{
+	"Collection": [
+		"F_Mmim_Sorder_Vh"
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "SalesOrder",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Customer",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "CustomerName",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "AuthorizationGroup",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/SoltiusInnovMdk/Services/PutAwaySAPMatDoc.service",
+	"_Name": "F_Mmim_Sorder_VhType"
+}

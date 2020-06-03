@@ -1,0 +1,29 @@
+{
+	"Collection": [
+		"F_Mmim_Mdoc_Revstat"
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "MaterialDocument",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "MaterialDocumentYear",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "NumberOfItemsInMaterialDoc",
+			"_Type": "Edm.Decimal"
+		},
+		{
+			"Key": false,
+			"_Name": "NumberOfRvsdItemsInMaterialDoc",
+			"_Type": "Edm.Decimal"
+		}
+	],
+	"Service": "/SoltiusInnovMdk/Services/PutAwaySAPMatDoc.service",
+	"_Name": "F_Mmim_Mdoc_RevstatType"
+}

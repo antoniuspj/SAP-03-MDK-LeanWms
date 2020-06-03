@@ -1,0 +1,53 @@
+{
+	"ActionResult": {
+		"_Name": "init"
+	},
+	"ActivityIndicatorText": "Downloading...",
+	"DefiningRequests": [
+		{
+			"Name": "Customers",
+			"Query": "Customers"
+		},
+		{
+			"Name": "Suppliers",
+			"Query": "Suppliers"
+		},
+		{
+			"Name": "Products",
+			"Query": "Products"
+		},
+		{
+			"Name": "ProductCategories",
+			"Query": "ProductCategories"
+		},
+		{
+			"Name": "ProductTexts",
+			"Query": "ProductTexts"
+		},
+		{
+			"Name": "Stock",
+			"Query": "Stock"
+		},
+		{
+			"Name": "PurchaseOrderHeaders",
+			"Query": "PurchaseOrderHeaders"
+		},
+		{
+			"Name": "PurchaseOrderItems",
+			"Query": "PurchaseOrderItems"
+		},
+		{
+			"Name": "SalesOrderHeaders",
+			"Query": "SalesOrderHeaders"
+		},
+		{
+			"Name": "SalesOrderItems",
+			"Query": "SalesOrderItems"
+		}
+	],
+	"OnFailure": "/SoltiusInnovMdk/Actions/PutAway/Service/InitializeOfflineFailureMessage.action",
+	"OnSuccess": "/SoltiusInnovMdk/Actions/PutAway/Service/Initialize_Offline_Odata_Material_Document.action",
+	"Service": "/SoltiusInnovMdk/Services/SampleServiceV2.service",
+	"ShowActivityIndicator": true,
+	"_Type": "Action.Type.OfflineOData.Initialize"
+}

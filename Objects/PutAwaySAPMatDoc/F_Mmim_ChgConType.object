@@ -1,0 +1,19 @@
+{
+	"Collection": [
+		"F_Mmim_ChgCon"
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "StockChangeContext",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "StockChangeContext_Text",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/SoltiusInnovMdk/Services/PutAwaySAPMatDoc.service",
+	"_Name": "F_Mmim_ChgConType"
+}

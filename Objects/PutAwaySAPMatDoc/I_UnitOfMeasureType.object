@@ -1,0 +1,39 @@
+{
+	"Collection": [
+		"I_UnitOfMeasure"
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "UnitOfMeasure",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "UnitOfMeasure_Text",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "UnitOfMeasureDimension",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "UnitOfMeasureISOCode",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "UnitOfMeasureNumberOfDecimals",
+			"_Type": "Edm.Int16"
+		},
+		{
+			"Key": false,
+			"_Name": "UnitOfMeasureDspNmbrOfDcmls",
+			"_Type": "Edm.Int16"
+		}
+	],
+	"Service": "/SoltiusInnovMdk/Services/PutAwaySAPMatDoc.service",
+	"_Name": "I_UnitOfMeasureType"
+}

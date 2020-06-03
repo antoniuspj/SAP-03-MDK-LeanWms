@@ -1,0 +1,99 @@
+{
+	"Collection": [
+		"F_Mmim_Wbselement_Vh"
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "WBSElement",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "WBSDescription",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Project",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "ProjectDescription",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "WBSElementInternalID",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "ProjectType",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "ControllingArea",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "RespCostCenterControllingArea",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "ResponsibleCostCenter",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "ProfitCenter",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "ResponsiblePerson",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "ResponsiblePersonName",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "FreeDefinedAttribute01",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "FreeDefinedAttribute02",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "FreeDefinedAttribute04",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "FreeDefinedAttribute03",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "FreeDefinedIndicator1",
+			"_Type": "Edm.Boolean"
+		},
+		{
+			"Key": false,
+			"_Name": "FreeDefinedIndicator2",
+			"_Type": "Edm.Boolean"
+		}
+	],
+	"Service": "/SoltiusInnovMdk/Services/HDBPutAwaySampleMatDoc.service",
+	"_Name": "F_Mmim_Wbselement_VhType"
+}

@@ -1,0 +1,29 @@
+{
+	"Collection": [
+		"F_Mmim_Pers_Vh"
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "PersonnelNumber",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "EmployeeFullName",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "AuthorizationGroup",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "IsBusinessPurposeCompleted",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/SoltiusInnovMdk/Services/PutAwaySAPMatDoc.service",
+	"_Name": "F_Mmim_Pers_VhType"
+}

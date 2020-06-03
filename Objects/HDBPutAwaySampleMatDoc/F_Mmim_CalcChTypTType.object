@@ -1,0 +1,19 @@
+{
+	"Collection": [
+		"F_Mmim_CalcChTypT"
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "CalculatedStockChangeType",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "CalculatedStockChangeTypeName",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/SoltiusInnovMdk/Services/HDBPutAwaySampleMatDoc.service",
+	"_Name": "F_Mmim_CalcChTypTType"
+}

@@ -1,0 +1,42 @@
+{
+	"Caption": "List of Goods Receipt",
+	"Controls": [
+		{
+			"Sections": [
+				{
+					"Controls": [
+						{
+							"AlternateInput": "Barcode",
+							"Caption": "Purchase Order",
+							"IsEditable": true,
+							"IsVisible": true,
+							"KeyboardType": "Number",
+							"PlaceHolder": "Search Purchase Order Number",
+							"Value": "4500000175",
+							"_Name": "InputPoNumber",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						}
+					],
+					"Visible": true
+				}
+			],
+			"_Name": "FormCellContainer0",
+			"_Type": "Control.Type.FormCellContainer"
+		}
+	],
+	"ToolBar": {
+		"Controls": [
+			{
+				"Caption": "Execute",
+				"Clickable": true,
+				"Enabled": true,
+				"OnPress": "/SoltiusInnovMdk/Actions/GoodsReceipt/Navigation/NavToDetail.action",
+				"Visible": true,
+				"_Name": "ButtonExecute",
+				"_Type": "Control.Type.ToolbarItem"
+			}
+		]
+	},
+	"_Name": "GoodsReceiptList",
+	"_Type": "Page"
+}

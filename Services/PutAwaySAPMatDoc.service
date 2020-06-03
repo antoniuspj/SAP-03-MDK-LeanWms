@@ -1,0 +1,6 @@
+{
+	"AppId": "com.soltius.innovation",
+	"DestinationName": "SHDConnection2",
+	"OfflineEnabled": true,
+	"ServiceUrl": "/destinations/mobileservices"
+}

@@ -1,0 +1,24 @@
+{
+	"Collection": [
+		"I_MaterialText"
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "Material",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "Language",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "MaterialName",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/SoltiusInnovMdk/Services/HDBPutAwaySampleMatDoc.service",
+	"_Name": "I_MaterialTextType"
+}

@@ -1,0 +1,24 @@
+{
+	"Collection": [
+		"I_MaterialType"
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "MaterialType",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "MaterialType_Text",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "AuthorizationGroup",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/SoltiusInnovMdk/Services/PutAwaySAPMatDoc.service",
+	"_Name": "I_MaterialTypeType"
+}

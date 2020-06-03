@@ -1,0 +1,28 @@
+{
+	"ActionResult": {
+		"_Name": "create"
+	},
+	"OnFailure": "/SoltiusInnovMdk/Actions/GoodsIssue/OdataAction/Message/CreateEntityFailureMessage.action",
+	"OnSuccess": "/SoltiusInnovMdk/Actions/GoodsIssue/OdataAction/Message/CreateEntitySuccessMessage.action",
+	"Properties": {
+		"CHANGEBY": "#Control:CHANGEBY/#Value",
+		"CHANGEDAT": "#Control:CHANGEDAT/#Value",
+		"CREATEBY": "#Control:CREATEBY/#Value",
+		"CREATEDAT": "#Control:CREATEDAT/#Value",
+		"DELIVERYCONFIRMATIONSTATUSCODE": "#Control:DELIVERYCONFIRMATIONSTATUSCODE/#Value",
+		"DELIVERYDATE": "#Control:DELIVERYDATE/#Value",
+		"DELIVERYGOODSISSUESTATUSCODE": "#Control:DELIVERYGOODSISSUESTATUSCODE/#Value",
+		"DELIVERYID": "#Control:DELIVERYID/#Value",
+		"DELIVERYPICKINGSTATUSCODE": "#Control:DELIVERYPICKINGSTATUSCODE/#Value",
+		"EDITABLESTATUSCODE": "#Control:EDITABLESTATUSCODE/#Value",
+		"GOODSISSUEACTUALDATE": "#Control:GOODSISSUEACTUALDATE/#Value",
+		"GOODSISSUEID": "#Control:GOODSISSUEID/#Value",
+		"SHIPTOPARTYID": "#Control:SHIPTOPARTYID/#Value",
+		"SHIPTOPARTYNAME": "#Control:SHIPTOPARTYNAME/#Value"
+	},
+	"Target": {
+		"EntitySet": "DeliveryHeader",
+		"Service": "/SoltiusInnovMdk/Services/GoodsIssueHDBAllEntity.service"
+	},
+	"_Type": "Action.Type.ODataService.CreateEntity"
+}

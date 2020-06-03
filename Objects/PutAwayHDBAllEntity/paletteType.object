@@ -1,0 +1,34 @@
+{
+	"Collection": [
+		"palette"
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "PALETTE_ID",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "DESCRIPTION",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "MATERIAL",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "QUANTITY",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "UOM",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/SoltiusInnovMdk/Services/PutAwayHDBAllEntity.service",
+	"_Name": "paletteType"
+}

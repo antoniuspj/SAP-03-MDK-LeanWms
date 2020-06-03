@@ -1,0 +1,200 @@
+{
+	"ActionBar": {
+		"Items": [
+			{
+				"OnPress": "/SoltiusInnovMdk/Actions/PutAway/OdataAction/PutawayProcess_CreateEntity.action",
+				"Position": "right",
+				"SystemItem": "Save",
+				"Text": "Item",
+				"Visible": true
+			}
+		]
+	},
+	"Caption": "Material Document List",
+	"Controls": [
+		{
+			"Sections": [
+				{
+					"Controls": [
+						{
+							"AlternateInput": "None",
+							"Caption": "Delivery Note",
+							"IsEditable": true,
+							"IsVisible": true,
+							"KeyboardType": "Default",
+							"Value": "DN12938475",
+							"_Name": "FCDeliveryNote",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						},
+						{
+							"Caption": "Header Text",
+							"IsEditable": true,
+							"IsVisible": true,
+							"Value": "HERO Item",
+							"_Name": "FCHeaderText",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						},
+						{
+							"Caption": "Purchase Order",
+							"IsEditable": true,
+							"IsVisible": true,
+							"Value": "4500000101",
+							"_Name": "FCPurchaseOrder",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						},
+						{
+							"Caption": "Vendor Description",
+							"IsEditable": true,
+							"IsVisible": true,
+							"Value": "HERO Living World",
+							"_Name": "FCVendorDescription",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						},
+						{
+							"Caption": "Material Document",
+							"IsEditable": true,
+							"IsVisible": true,
+							"Value": "{MaterialDocument}",
+							"_Name": "FCMaterialDocument",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						},
+						{
+							"Caption": "Part Number",
+							"IsEditable": true,
+							"IsVisible": true,
+							"Value": "{Material}",
+							"_Name": "FCPartNumber",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						},
+						{
+							"Caption": "Part Description",
+							"IsEditable": true,
+							"IsVisible": true,
+							"Value": "{MaterialName}",
+							"_Name": "FCPartDescription",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						},
+						{
+							"Caption": "Line Item / Sloc",
+							"IsEditable": true,
+							"IsVisible": true,
+							"Value": "{StorageLocation}",
+							"_Name": "FCLineItem",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						},
+						{
+							"Caption": "Quantity / UOM",
+							"IsEditable": true,
+							"IsVisible": true,
+							"KeyboardType": "Number",
+							"OnValueChange": "/APP_LEAN_WMS/Rules/FormCell/putawayProcess.js",
+							"PlaceHolder": "Input Quantity",
+							"_Name": "FCQuantityUOM",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						},
+						{
+							"Caption": "Item Text",
+							"IsEditable": true,
+							"IsVisible": true,
+							"Value": "{DocumentItemText}",
+							"_Name": "FCItemText",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						},
+						{
+							"AllowEmptySelection": false,
+							"AllowMultipleSelection": false,
+							"Caption": "Assign Pallet",
+							"IsEditable": true,
+							"IsPickerDismissedOnSelection": true,
+							"IsSearchCancelledAfterSelection": true,
+							"IsSelectedSectionEnabled": true,
+							"IsVisible": true,
+							"OnValueChange": "/APP_LEAN_WMS/Rules/FormCell/putawayProcess.js",
+							"PickerItems": {
+								"ObjectCell": {
+									"Description": "{DESCRIPTION}",
+									"DetailImageIsCircular": false,
+									"Icons": [
+									],
+									"PreserveIconStackSpacing": true,
+									"Styles": {
+									},
+									"Subhead": "{QUANTITY}",
+									"Title": "{PALETTE_ID}"
+								},
+								"ReturnValue": "{QUANTITY}",
+								"Target": {
+									"EntitySet": "palette",
+									"Service": "/APP_LEAN_WMS/Services/hanaDB.service"
+								}
+							},
+							"PickerPrompt": "Please select one single item",
+							"Search": {
+								"BarcodeScanner": true,
+								"Enabled": true
+							},
+							"_Name": "FCAssignPalette",
+							"_Type": "Control.Type.FormCell.ListPicker"
+						},
+						{
+							"Caption": "Full Pallet",
+							"IsEditable": false,
+							"IsVisible": true,
+							"_Name": "FCFullPallet",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						},
+						{
+							"Caption": "Partial Pallet",
+							"IsEditable": false,
+							"IsVisible": true,
+							"_Name": "FCPartialPallet",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						},
+						{
+							"AllowEmptySelection": false,
+							"AllowMultipleSelection": false,
+							"Caption": "Assign Bin",
+							"IsEditable": true,
+							"IsPickerDismissedOnSelection": true,
+							"IsSearchCancelledAfterSelection": true,
+							"IsSelectedSectionEnabled": true,
+							"IsVisible": true,
+							"PickerItems": {
+								"DisplayValue": "{BIN}",
+								"ReturnValue": "{BIN}",
+								"Target": {
+									"EntitySet": "bin",
+									"Service": "/APP_LEAN_WMS/Services/hanaDB.service"
+								}
+							},
+							"PickerPrompt": "Please select one single item",
+							"Search": {
+								"BarcodeScanner": true,
+								"Enabled": true
+							},
+							"Value": [
+								"{BIN}"
+							],
+							"_Name": "FCAssignBin",
+							"_Type": "Control.Type.FormCell.ListPicker"
+						},
+						{
+							"Caption": "Plant",
+							"IsEditable": true,
+							"IsVisible": true,
+							"KeyboardType": "Default",
+							"PlaceHolder": "Input Plant",
+							"_Name": "FCPlant",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						}
+					],
+					"Visible": true
+				}
+			],
+			"_Name": "FormCellContainer0",
+			"_Type": "Control.Type.FormCellContainer"
+		}
+	],
+	"_Name": "PutawayProcess_Edit_Item",
+	"_Type": "Page"
+}

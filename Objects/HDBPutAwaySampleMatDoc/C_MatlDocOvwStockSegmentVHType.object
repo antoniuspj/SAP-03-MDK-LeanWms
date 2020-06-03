@@ -1,0 +1,14 @@
+{
+	"Collection": [
+		"C_MatlDocOvwStockSegmentVH"
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "StockSegment",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/SoltiusInnovMdk/Services/HDBPutAwaySampleMatDoc.service",
+	"_Name": "C_MatlDocOvwStockSegmentVHType"
+}

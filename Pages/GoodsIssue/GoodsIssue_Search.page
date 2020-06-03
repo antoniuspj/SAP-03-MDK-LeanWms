@@ -1,0 +1,39 @@
+{
+	"ActionBar": {
+		"Items": [
+			{
+				"OnPress": "/SoltiusInnovMdk/Rules/GoodsIssue/NavToDetailPage.js",
+				"Position": "right",
+				"SystemItem": "Search",
+				"Text": "Search",
+				"Visible": true
+			}
+		]
+	},
+	"Caption": "GoodsIssue_Search",
+	"Controls": [
+		{
+			"Sections": [
+				{
+					"Controls": [
+						{
+							"AlternateInput": "Barcode",
+							"Caption": "DeliveryID",
+							"IsEditable": true,
+							"IsVisible": true,
+							"PlaceHolder": "PlaceHolder",
+							"Value": "6000000098",
+							"_Name": "FormCellDeliveryID",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						}
+					],
+					"Visible": true
+				}
+			],
+			"_Name": "FormCellContainer0",
+			"_Type": "Control.Type.FormCellContainer"
+		}
+	],
+	"_Name": "GoodsIssue_Search",
+	"_Type": "Page"
+}

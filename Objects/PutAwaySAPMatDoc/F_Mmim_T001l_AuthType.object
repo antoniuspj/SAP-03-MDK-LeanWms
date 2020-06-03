@@ -1,0 +1,24 @@
+{
+	"Collection": [
+		"F_Mmim_T001l_Auth"
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "werks",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "lgort",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "xblgo",
+			"_Type": "Edm.Boolean"
+		}
+	],
+	"Service": "/SoltiusInnovMdk/Services/PutAwaySAPMatDoc.service",
+	"_Name": "F_Mmim_T001l_AuthType"
+}

@@ -1,0 +1,49 @@
+{
+	"Collection": [
+		"F_Mmim_Ir_Plant_Vh2"
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "IssuingOrReceivingPlant",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "PlantName",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Fullname",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "CountryName",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "PostalCode",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "CityName",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "StreetName",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "HouseNumber",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/SoltiusInnovMdk/Services/HDBPutAwaySampleMatDoc.service",
+	"_Name": "F_Mmim_Ir_Plant_Vh2Type"
+}

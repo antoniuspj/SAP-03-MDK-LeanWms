@@ -1,0 +1,11 @@
+{
+	"ActionResult": {
+		"_Name": "init"
+	},
+	"ActivityIndicatorText": "Initializing Application...",
+	"OnFailure": "/SoltiusInnovMdk/Actions/GoodsReceipt/Service/CreateOpenServiceFailureMessage.action",
+	"OnSuccess": "/SoltiusInnovMdk/Actions/GoodsReceipt/Service/OpenService.action",
+	"Service": "/SoltiusInnovMdk/Services/GoodsReceiptSAPAllEntity.service",
+	"ShowActivityIndicator": true,
+	"_Type": "Action.Type.ODataService.Create"
+}

@@ -1,0 +1,7 @@
+{
+	"AppId": "com.soltius.innovation",
+	"DestinationName": "SHDConnection",
+	"OfflineEnabled": false,
+	"PathSuffix": "/sap/opu/odata/sap/YPJSRV_MDKSERVICE_SRV",
+	"ServiceUrl": "/destinations/mobileservices"
+}

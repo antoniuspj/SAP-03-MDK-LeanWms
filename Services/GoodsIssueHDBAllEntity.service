@@ -1,0 +1,12 @@
+{
+	"AppId": "com.soltius.innovation",
+	"DestinationName": "HANADBSCP",
+	"OfflineEnabled": false,
+	"OnlineOptions": {
+		"ServiceOptions": {
+			"dataVersion": 200
+		}
+	},
+	"PathSuffix": "/mdk/hana/content/services/DeliveryOrderSRV.xsodata",
+	"ServiceUrl": "/destinations/mobileservices"
+}

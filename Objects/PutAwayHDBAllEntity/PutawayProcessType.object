@@ -1,0 +1,84 @@
+{
+	"Collection": [
+		"PutawayProcess"
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "DeliveryNote",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "HeaderText",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "PurchaseOrder",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "VendorDescription",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "MaterialDocument",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "PartNumber",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "PartDescription",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Sloc",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Quantity",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "ItemText",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Palette",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Bin",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Plant",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Full_Palette",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Partial_Palette",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/SoltiusInnovMdk/Services/PutAwayHDBAllEntity.service",
+	"_Name": "PutawayProcessType"
+}

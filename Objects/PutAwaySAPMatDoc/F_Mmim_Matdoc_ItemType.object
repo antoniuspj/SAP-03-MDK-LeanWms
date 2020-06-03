@@ -1,0 +1,386 @@
+{
+	"Collection": [
+		"F_Mmim_Matdoc_Item"
+	],
+	"NavigationProperties": [
+		{
+			"Key": false,
+			"_Name": "to_F_Mmm_Docflow",
+			"_Type": "Collection(F_Mmm_DocflowType)"
+		},
+		{
+			"Key": false,
+			"_Name": "to_Matdoc_Item_Account",
+			"_Type": "Collection(F_Mmim_Matdoc_Item_AccountType)"
+		}
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "MaterialDocument",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "MaterialDocumentYear",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "MaterialDocumentItem",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "IsCancelled",
+			"_Type": "Edm.Boolean"
+		},
+		{
+			"Key": false,
+			"_Name": "DocumentTitle",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Material",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "MaterialName",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "GoodsmovementType",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "GoodsmovementTypeName",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "GoodsMovementTypeLongName",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "GoodsMovementReasonCode",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "GoodsMovementReasonName",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Plant",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "PlantName",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Batch",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "StorageLocation",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "StorageLocationName",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Supplier",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "SupplierName",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "SupplierBasicAuthorizationGrp",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "SalesOrder",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "SalesOrderItem",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Customer",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "CustomerName",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "CustomerBasicAuthorizationGrp",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "InventoryStockType",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "InventoryStockTypeName",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "InventorySpecialStockType",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "InventorySpecialStockTypeName",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "OrderID",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "WBSElementInternalID",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "WBSElement",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "WorkItem",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "PersonnelNumber",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "DocumentItemText",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "AcctAssignmentCategory",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "AcctAssignmentCategoryName",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "ShelfLifeExpirationDate",
+			"_Type": "Edm.DateTime"
+		},
+		{
+			"Key": false,
+			"_Name": "ManufactureDate",
+			"_Type": "Edm.DateTime"
+		},
+		{
+			"Key": false,
+			"_Name": "GoodsReceiptIsNonValuated",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "HasMultipleAccountAssignment",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "PurchaseOrder",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "PurchaseOrderItem",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "DeliveryDocument",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "DeliveryDocumentItem",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "IssuingOrReceivingPlant",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "IssuingOrReceivingPlantName",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "IssuingOrReceivingStorageLoc",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "IssuingOrReceivingStLocName",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "IssgOrRcvgBatch",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "IssuingOrReceivingStockType",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "IssuingOrReceivStockTypeName",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "DebitCreditCode",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "EntryUnit",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "QuantityInEntryUnit",
+			"_Type": "Edm.Decimal"
+		},
+		{
+			"Key": false,
+			"_Name": "IsStorLocAuthznCheckActive",
+			"_Type": "Edm.Boolean"
+		},
+		{
+			"Key": false,
+			"_Name": "IsIssgOrRcvgStorLocAuthChkActv",
+			"_Type": "Edm.Boolean"
+		},
+		{
+			"Key": false,
+			"_Name": "StockSegment",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "ProductSeasonYear",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "ProductSeason",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "ProductCollection",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "ProductTheme",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "CrossPlantConfigurableProduct",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "ProductCharacteristic1",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "ProductCharacteristic2",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "ProductCharacteristic3",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "ProductCharacteristic1Desc",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "ProductCharacteristic2Desc",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "ProductCharacteristic3Desc",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "SeasonDescription",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "CollectionDescription",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "ThemeDescription",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "CrossPlantConfProductName",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/SoltiusInnovMdk/Services/PutAwaySAPMatDoc.service",
+	"_Name": "F_Mmim_Matdoc_ItemType"
+}

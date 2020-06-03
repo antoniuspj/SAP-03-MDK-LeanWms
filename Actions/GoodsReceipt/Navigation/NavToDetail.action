@@ -1,0 +1,6 @@
+{
+	"ActivityIndicatorText": "Loading",
+	"PageToOpen": "/SoltiusInnovMdk/Pages/GoodsReceipt/GoodsReceiptDetail.page",
+	"ShowActivityIndicator": true,
+	"_Type": "Action.Type.Navigation"
+}

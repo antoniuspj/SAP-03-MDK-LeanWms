@@ -1,0 +1,16 @@
+{
+	"ActivityIndicatorText": "Updating Data ...",
+	"OnSuccess": "/SoltiusInnovMdk/Actions/GoodsReceipt/CloseModalPage.action",
+	"Properties": {
+		"Poitem": "{PoItem}",
+		"Ponumber": "{PoNumber}",
+		"Quantity": "#Page:GoodsReceiptEdit/#Control:InputQty/#Value"
+	},
+	"ShowActivityIndicator": true,
+	"Target": {
+		"EntitySet": "PurchaseOrderDetailSet",
+		"ReadLink": "{@odata.readLink}",
+		"Service": "/SoltiusInnovMdk/Services/GoodsReceiptSAPAllEntity.service"
+	},
+	"_Type": "Action.Type.ODataService.UpdateEntity"
+}

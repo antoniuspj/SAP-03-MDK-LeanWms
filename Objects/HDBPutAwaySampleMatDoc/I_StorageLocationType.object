@@ -1,0 +1,44 @@
+{
+	"Collection": [
+		"I_StorageLocation"
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "Plant",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "StorageLocation",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "StorageLocationName",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "SalesOrganization",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "DistributionChannel",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Division",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "IsStorLocAuthznCheckActive",
+			"_Type": "Edm.Boolean"
+		}
+	],
+	"Service": "/SoltiusInnovMdk/Services/HDBPutAwaySampleMatDoc.service",
+	"_Name": "I_StorageLocationType"
+}

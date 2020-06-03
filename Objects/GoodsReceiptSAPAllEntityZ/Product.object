@@ -1,0 +1,99 @@
+{
+	"Collection": [
+		"ProductSet"
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "ProductId",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "TypeCode",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Category",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Name",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Description",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "SupplierId",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "SupplierName",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "TaxTarifCode",
+			"_Type": "Edm.Byte"
+		},
+		{
+			"Key": false,
+			"_Name": "MeasureUnit",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "WeightMeasure",
+			"_Type": "Edm.Decimal"
+		},
+		{
+			"Key": false,
+			"_Name": "WeightUnit",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Price",
+			"_Type": "Edm.Decimal"
+		},
+		{
+			"Key": false,
+			"_Name": "CurrencyCode",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Width",
+			"_Type": "Edm.Decimal"
+		},
+		{
+			"Key": false,
+			"_Name": "Depth",
+			"_Type": "Edm.Decimal"
+		},
+		{
+			"Key": false,
+			"_Name": "Height",
+			"_Type": "Edm.Decimal"
+		},
+		{
+			"Key": false,
+			"_Name": "DimUnit",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "ProductPicUrl",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/SoltiusInnovMdk/Services/GoodsReceiptSAPAllEntityZ.service",
+	"_Name": "Product"
+}

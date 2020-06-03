@@ -1,0 +1,134 @@
+{
+	"Collection": [
+		"PurchaseOrderDetailSet"
+	],
+	"Properties": [
+		{
+			"Key": false,
+			"_Name": "Mandt",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "Ponumber",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "Poitem",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "Mdksysid",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Cocode",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Doccat",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Doctype",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Deleteind",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Status",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Createdon",
+			"_Type": "Edm.DateTime"
+		},
+		{
+			"Key": false,
+			"_Name": "Createdby",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Vendor",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Docdate",
+			"_Type": "Edm.DateTime"
+		},
+		{
+			"Key": false,
+			"_Name": "Telephone",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Supplvend",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Rejreason",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Changedon",
+			"_Type": "Edm.DateTime"
+		},
+		{
+			"Key": false,
+			"_Name": "Material",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Purmat",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Plant",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Storeloc",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Quantity",
+			"_Type": "Edm.Decimal"
+		},
+		{
+			"Key": false,
+			"_Name": "Unit",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "VendName",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "ShortText",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/SoltiusInnovMdk/Services/Srv01_Gr.service",
+	"_Name": "PurchaseOrderDetail"
+}

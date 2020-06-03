@@ -1,0 +1,18 @@
+{
+	"ActionResult": {
+		"_Name": "create"
+	},
+	"ActivityIndicatorText": "Posting Data ...",
+	"OnFailure": "/SoltiusInnovMdk/Actions/GoodsReceipt/OdataAction/Message/GoodsReceiptPostFailed.action",
+	"OnSuccess": "/SoltiusInnovMdk/Actions/GoodsReceipt/OdataAction/Message/GoodsReceiptPostSuccess.action",
+	"Properties": {
+		"Mdksysid": "#Application/#ClientData/#Property:DeviceId",
+		"Ponumber": "#Page:GoodsReceiptList/#Control:InputPoNumber/#Value"
+	},
+	"ShowActivityIndicator": true,
+	"Target": {
+		"EntitySet": "PurchaseOrderDetailSet",
+		"Service": "/SoltiusInnovMdk/Services/GoodsReceiptSAPAllEntity.service"
+	},
+	"_Type": "Action.Type.ODataService.CreateEntity"
+}

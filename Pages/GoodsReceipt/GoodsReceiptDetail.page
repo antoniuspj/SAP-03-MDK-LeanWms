@@ -1,0 +1,69 @@
+{
+	"Caption": "Detail of Goods Receipt",
+	"Controls": [
+		{
+			"Sections": [
+				{
+					"ObjectHeader": {
+						"BodyText": "Vendor Name",
+						"DetailImageIsCircular": false,
+						"Footnote": "{VendName}",
+						"HeadlineText": "Purchase Order",
+						"Subhead": "{Ponumber}",
+						"Tags": [
+							"{Plant}"
+						],
+						"Target": {
+							"EntitySet": "PurchaseOrderDetailSet",
+							"QueryOptions": "/SoltiusInnovMdk/Rules/GoodsReceipt/GetFilterUrlByPo.js",
+							"Service": "/SoltiusInnovMdk/Services/GoodsReceiptSAPAllEntity.service"
+						}
+					},
+					"Visible": true,
+					"_Name": "SectionObjectHeader0",
+					"_Type": "Section.Type.ObjectHeader"
+				},
+				{
+					"EmptySection": {
+						"FooterVisible": false
+					},
+					"ObjectCell": {
+						"AccessoryType": "none",
+						"DetailImageIsCircular": false,
+						"OnPress": "/SoltiusInnovMdk/Actions/GoodsReceipt/Navigation/NavToEdit.action",
+						"PreserveIconStackSpacing": false,
+						"StatusText": "{Plant}",
+						"Subhead": "{ShortText}",
+						"SubstatusText": "{Quantity}",
+						"Title": "{Material}"
+					},
+					"Target": {
+						"EntitySet": "PurchaseOrderDetailSet",
+						"QueryOptions": "/SoltiusInnovMdk/Rules/GoodsReceipt/GetFilterUrlByPo.js",
+						"Service": "/SoltiusInnovMdk/Services/GoodsReceiptSAPAllEntity.service"
+					},
+					"Visible": true,
+					"_Name": "SectionObjectTable6",
+					"_Type": "Section.Type.ObjectTable"
+				}
+			],
+			"_Name": "SectionedTable0",
+			"_Type": "Control.Type.SectionedTable"
+		}
+	],
+	"ToolBar": {
+		"Controls": [
+			{
+				"Caption": "Post to SAP",
+				"Clickable": true,
+				"Enabled": true,
+				"OnPress": "/SoltiusInnovMdk/Actions/GoodsReceipt/OdataAction/GoodsReceiptPost.action",
+				"Visible": true,
+				"_Name": "ButtonPostToSap",
+				"_Type": "Control.Type.ToolbarItem"
+			}
+		]
+	},
+	"_Name": "GoodsReceiptDetail",
+	"_Type": "Page"
+}

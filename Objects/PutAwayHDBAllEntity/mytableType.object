@@ -1,0 +1,19 @@
+{
+	"Collection": [
+		"mytable"
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "ID",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "Name",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/SoltiusInnovMdk/Services/PutAwayHDBAllEntity.service",
+	"_Name": "mytableType"
+}

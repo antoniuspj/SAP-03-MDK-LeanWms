@@ -1,0 +1,6 @@
+{
+	"AppId": "com.soltius.innovation",
+	"DestinationName": "SampleServicesV2",
+	"OfflineEnabled": true,
+	"ServiceUrl": "/destinations/mobileservices"
+}

@@ -1,0 +1,16 @@
+{
+	"ActionResult": {
+		"_Name": "init"
+	},
+	"DefiningRequests": [
+		{
+			"AutomaticallyRetrievesStreams": false,
+			"Name": "F_Mmim_Matdoc_Item",
+			"Query": "F_Mmim_Matdoc_Item"
+		}
+	],
+	"OnFailure": "/SoltiusInnovMdk/Actions/PutAway/Service/InitializeOfflineFailureMessage.action",
+	"OnSuccess": "/SoltiusInnovMdk/Actions/PutAway/Service/InitializeOffline_hanaDB.action",
+	"Service": "/SoltiusInnovMdk/Services/PutAwaySAPMatDoc.service",
+	"_Type": "Action.Type.OfflineOData.Initialize"
+}

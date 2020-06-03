@@ -1,0 +1,24 @@
+{
+	"Collection": [
+		"F_Mmim_Reasonc_Vh"
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "GoodsMovementType",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "GoodsMovementReasonCode",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "GoodsMovementReasonName",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/SoltiusInnovMdk/Services/HDBPutAwaySampleMatDoc.service",
+	"_Name": "F_Mmim_Reasonc_VhType"
+}

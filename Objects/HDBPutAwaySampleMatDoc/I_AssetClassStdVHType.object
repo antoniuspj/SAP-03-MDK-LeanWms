@@ -1,0 +1,19 @@
+{
+	"Collection": [
+		"I_AssetClassStdVH"
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "AssetClass",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "AssetClass_Text",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/SoltiusInnovMdk/Services/HDBPutAwaySampleMatDoc.service",
+	"_Name": "I_AssetClassStdVHType"
+}

@@ -1,0 +1,19 @@
+{
+	"Collection": [
+		"F_Mmim_Sobkz_Vh"
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "InventorySpecialStockType",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "InventorySpecialStockTypeName",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/SoltiusInnovMdk/Services/HDBPutAwaySampleMatDoc.service",
+	"_Name": "F_Mmim_Sobkz_VhType"
+}

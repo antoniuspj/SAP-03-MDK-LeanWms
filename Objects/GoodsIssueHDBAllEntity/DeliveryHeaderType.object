@@ -1,0 +1,86 @@
+{
+	"Collection": [
+		"DeliveryHeader"
+	],
+	"NavigationProperties": [
+		{
+			"Key": false,
+			"_Name": "DeliveryItems",
+			"_Type": "Collection(DeliveryItemsType)"
+		}
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "DELIVERYID",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "GOODSISSUEID",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "GOODSISSUEACTUALDATE",
+			"_Type": "Edm.DateTime"
+		},
+		{
+			"Key": false,
+			"_Name": "DELIVERYDATE",
+			"_Type": "Edm.DateTime"
+		},
+		{
+			"Key": false,
+			"_Name": "DELIVERYPICKINGSTATUSCODE",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "DELIVERYGOODSISSUESTATUSCODE",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "DELIVERYCONFIRMATIONSTATUSCODE",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "SHIPTOPARTYID",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "SHIPTOPARTYNAME",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "EDITABLESTATUSCODE",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "CREATEDAT",
+			"_Type": "Edm.DateTime"
+		},
+		{
+			"Key": false,
+			"_Name": "CREATEBY",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "CHANGEDAT",
+			"_Type": "Edm.DateTime"
+		},
+		{
+			"Key": false,
+			"_Name": "CHANGEBY",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/SoltiusInnovMdk/Services/GoodsIssueHDBAllEntity.service",
+	"_Name": "DeliveryHeaderType"
+}

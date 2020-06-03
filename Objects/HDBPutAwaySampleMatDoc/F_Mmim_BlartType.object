@@ -1,0 +1,19 @@
+{
+	"Collection": [
+		"F_Mmim_Blart"
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "AccountingDocumentType",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "AccountingDocumentTypeName",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/SoltiusInnovMdk/Services/HDBPutAwaySampleMatDoc.service",
+	"_Name": "F_Mmim_BlartType"
+}

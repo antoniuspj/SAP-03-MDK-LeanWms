@@ -1,0 +1,139 @@
+{
+	"Collection": [
+		"F_Mmim_Matdoc_Item_Account"
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "MaterialDocument",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "MaterialDocumentYear",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "MaterialDocumentItem",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "MultiAcctAssgmtOriglMatlDocItm",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "QuantityInEntryUnit",
+			"_Type": "Edm.Decimal"
+		},
+		{
+			"Key": false,
+			"_Name": "EntryUnit",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "GLAccount",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "GLAccountLongName",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "CostCenter",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "CostCenterName",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "FunctionalArea",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "FunctionalAreaName",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "ProfitCenter",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "ProfitCenterName",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "MasterFixedAsset",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "FixedAsset",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "FixedAssetDescription",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "BusinessArea",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "BusinessAreaName",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "ControllingArea",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "ControllingAreaName",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "ChartOfAccounts",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "SalesOrder",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "SalesOrderItem",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "WBSElement",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "OrderID",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/SoltiusInnovMdk/Services/PutAwaySAPMatDoc.service",
+	"_Name": "F_Mmim_Matdoc_Item_AccountType"
+}

@@ -1,0 +1,5 @@
+{
+	"ModalPage": true,
+	"PageToOpen": "/SoltiusInnovMdk/Pages/GoodsIssue/GoodsIssue_EditItem.page",
+	"_Type": "Action.Type.Navigation"
+}

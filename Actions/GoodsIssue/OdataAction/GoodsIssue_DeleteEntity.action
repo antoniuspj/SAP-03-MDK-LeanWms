@@ -1,0 +1,13 @@
+{
+	"ActionResult": {
+		"_Name": "delete"
+	},
+	"OnFailure": "/SoltiusInnovMdk/Actions/GoodsIssue/OdataAction/Message/DeleteEntityFailureMessage.action",
+	"OnSuccess": "/SoltiusInnovMdk/Actions/GoodsIssue/OdataAction/Message/DeleteEntitySuccessMessage.action",
+	"Target": {
+		"EntitySet": "DeliveryHeader",
+		"ReadLink": "{@odata.readLink}",
+		"Service": "/SoltiusInnovMdk/Services/GoodsIssueHDBAllEntity.service"
+	},
+	"_Type": "Action.Type.ODataService.DeleteEntity"
+}

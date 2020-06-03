@@ -1,0 +1,19 @@
+{
+	"Collection": [
+		"F_Mmim_Ir_Stocktyp_Vh2"
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "IssuingOrReceivingStockType",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "InventoryStockTypeName",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/SoltiusInnovMdk/Services/HDBPutAwaySampleMatDoc.service",
+	"_Name": "F_Mmim_Ir_Stocktyp_Vh2Type"
+}

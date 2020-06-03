@@ -1,0 +1,6 @@
+{
+	"AppId": "com.soltius.innovation",
+	"DestinationName": "HANADBSCP_PRN",
+	"OfflineEnabled": true,
+	"ServiceUrl": "/destinations/mobileservices"
+}

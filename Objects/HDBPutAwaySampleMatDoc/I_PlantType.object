@@ -1,0 +1,64 @@
+{
+	"Collection": [
+		"I_Plant"
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "Plant",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "PlantName",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "ValuationArea",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "PlantCustomer",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "PlantSupplier",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "FactoryCalendar",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "DefaultPurchasingOrganization",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "SalesOrganization",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "AddressID",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "PlantCategory",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "DistributionChannel",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/SoltiusInnovMdk/Services/HDBPutAwaySampleMatDoc.service",
+	"_Name": "I_PlantType"
+}

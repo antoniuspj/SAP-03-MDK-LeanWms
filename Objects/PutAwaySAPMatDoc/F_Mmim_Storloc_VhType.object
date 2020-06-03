@@ -1,0 +1,34 @@
+{
+	"Collection": [
+		"F_Mmim_Storloc_Vh"
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "Plant",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "StorageLocation",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "PlantName",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "StorageLocationName",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "IsStorLocAuthznCheckActive",
+			"_Type": "Edm.Boolean"
+		}
+	],
+	"Service": "/SoltiusInnovMdk/Services/PutAwaySAPMatDoc.service",
+	"_Name": "F_Mmim_Storloc_VhType"
+}

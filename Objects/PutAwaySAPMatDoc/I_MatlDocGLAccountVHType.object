@@ -1,0 +1,24 @@
+{
+	"Collection": [
+		"I_MatlDocGLAccountVH"
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "GLAccount",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "ChartOfAccounts",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "GLAccountLongName",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/SoltiusInnovMdk/Services/PutAwaySAPMatDoc.service",
+	"_Name": "I_MatlDocGLAccountVHType"
+}

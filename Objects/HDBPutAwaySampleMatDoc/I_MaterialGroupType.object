@@ -1,0 +1,24 @@
+{
+	"Collection": [
+		"I_MaterialGroup"
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "MaterialGroup",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "MaterialGroup_Text",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "MaterialAuthorizationGroup",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/SoltiusInnovMdk/Services/HDBPutAwaySampleMatDoc.service",
+	"_Name": "I_MaterialGroupType"
+}

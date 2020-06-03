@@ -1,0 +1,50 @@
+{
+	"Caption": "DeliveryHeader",
+	"ActionBar": {
+		"Items": [{
+			"OnPress": "/MDK_Innovation/Actions/GoodsIssue/NavToGoodsIssue_Create.action",
+			"Position": "right",
+			"SystemItem": "Add"
+		}]
+	},
+	"Controls": [{
+		"Sections": [{
+			"Header": {
+
+				"UseTopPadding": false
+			},
+			"ObjectCell": {
+				"AccessoryType": "disclosureIndicator",
+				"Description": "",
+				"DetailImage": "",
+				"DetailImageIsCircular": false,
+				"Icons": [],
+				"OnPress": "/MDK_Innovation/Actions/GoodsIssue/NavToGoodsIssue_Detail.action",
+				"StatusImage": "",
+				"Title": "{DELIVERYID}",
+				"Footnote": "{SHIPTOPARTYNAME}",
+				"PreserveIconStackSpacing": false,
+				"StatusText": "{DELIVERYPICKINGSTATUSCODE}",
+				"Subhead": "{SHIPTOPARTYID}",
+				"SubstatusText": "{DELIVERYGOODSISSUESTATUSCODE}"
+			},
+			"Search": {
+				"Enabled": true,
+				"Placeholder": "Item Search",
+				"BarcodeScanner": true,
+				"Delay": 500,
+				"MinimumCharacterThreshold": 3
+			},
+			"Target": {
+				"EntitySet": "DeliveryHeader",
+				"Service": "/MDK_Innovation/Services/HANADBSCPServices.service",
+				"QueryOptions": ""
+			},
+			"_Type": "Section.Type.ObjectTable"
+		}],
+		"_Type": "Control.Type.SectionedTable",
+		"_Name": "SectionedTable"
+	}],
+	"_Type": "Page",
+	"_Name": "GoodsIssue_List"
+}

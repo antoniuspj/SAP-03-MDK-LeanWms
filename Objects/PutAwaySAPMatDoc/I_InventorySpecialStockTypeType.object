@@ -1,0 +1,19 @@
+{
+	"Collection": [
+		"I_InventorySpecialStockType"
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "InventorySpecialStockType",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "InventorySpecialStockType_Text",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/SoltiusInnovMdk/Services/PutAwaySAPMatDoc.service",
+	"_Name": "I_InventorySpecialStockTypeType"
+}

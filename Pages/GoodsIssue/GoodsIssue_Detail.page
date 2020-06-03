@@ -1,0 +1,133 @@
+{
+	"ActionBar": {
+		"Items": [
+			{
+				"OnPress": "/SoltiusInnovMdk/Actions/GoodsIssue/Navigation/NavToGoodsIssue_Edit.action",
+				"Position": "right",
+				"SystemItem": "Edit",
+				"Text": "Edit"
+			},
+			{
+				"OnPress": "/SoltiusInnovMdk/Rules/GoodsIssue/GoodsIssue_DeleteConfirmation.js",
+				"Position": "right",
+				"SystemItem": "Trash",
+				"Text": "Delete"
+			}
+		]
+	},
+	"Caption": "DeliveryHeaderType Details",
+	"Controls": [
+		{
+			"Sections": [
+				{
+					"ObjectHeader": {
+						"Footnote": "{SHIPTOPARTYNAME}",
+						"HeadlineText": "{DELIVERYID}",
+						"StatusText": "{DELIVERYPICKINGSTATUSCODE}",
+						"Subhead": "{SHIPTOPARTYID}",
+						"SubstatusText": "{DELIVERYGOODSISSUESTATUSCODE}",
+						"Tags": [
+						],
+						"Target": {
+							"EntitySet": "DeliveryHeader",
+							"ReadLink": "{{#Property:@odata.readLink}}",
+							"Service": "/SoltiusInnovMdk/Services/GoodsIssueHDBAllEntity.service"
+						}
+					},
+					"_Name": "SectionObjectHeader0",
+					"_Type": "Section.Type.ObjectHeader"
+				},
+				{
+					"EmptySection": {
+						"FooterVisible": false
+					},
+					"ObjectCell": {
+						"AccessoryType": "none",
+						"DetailImageIsCircular": false,
+						"Footnote": "{MATERIALID}",
+						"OnPress": "/SoltiusInnovMdk/Actions/GoodsIssue/Navigation/NavToGoodsIssue_EditItem.action",
+						"PreserveIconStackSpacing": false,
+						"StatusText": "{{#Property:DELIVERYQUANTITYINSALESUOM}}/{{#Property:DELIVERYQUANTITYSALESUOMCODE}}",
+						"Subhead": "{ITEMNAME}",
+						"SubstatusText": "{{#Property:PLANTCODE}}",
+						"Title": "{ITEMID}"
+					},
+					"Target": {
+						"EntitySet": "{{#Property:@odata.readLink}}/DeliveryItems",
+						"Service": "/SoltiusInnovMdk/Services/GoodsIssueHDBAllEntity.service"
+					},
+					"Visible": true,
+					"_Name": "SectionObjectTable0",
+					"_Type": "Section.Type.ObjectTable"
+				},
+				{
+					"EmptySection": {
+						"FooterVisible": false
+					},
+					"Row": {
+						"AccessoryType": "none",
+						"Items": [
+							{
+								"NumberOfLines": 1,
+								"Text": "{ITEMID}"
+							},
+							{
+								"NumberOfLines": 1,
+								"Text": "{ITEMNAME}"
+							},
+							{
+								"NumberOfLines": 1,
+								"Text": "{MATERIALID}"
+							},
+							{
+								"NumberOfLines": 1,
+								"Text": "{{#Property:DELIVERYQUANTITYINSALESUOM}}/{{#Property:DELIVERYQUANTITYSALESUOMCODE}}"
+							},
+							{
+								"LineBreakMode": "charWrapping",
+								"NumberOfLines": 2,
+								"Text": "{{#Property:PLANTCODE}}\n{{#Property:PLANTNAME}}"
+							}
+						],
+						"Layout": {
+							"ColumnWidthPercentage": [
+								0.1,
+								0.1,
+								0.1,
+								0.1,
+								0.1
+							]
+						}
+					},
+					"Target": {
+						"EntitySet": "{{#Property:@odata.readLink}}/DeliveryItems",
+						"Service": "/SoltiusInnovMdk/Services/GoodsIssueHDBAllEntity.service"
+					},
+					"Visible": true,
+					"_Name": "SectionGridTable0",
+					"_Type": "Section.Type.GridTable"
+				},
+				{
+					"Buttons": [
+						{
+							"Style": "TopButtons",
+							"TextAlignment": "right",
+							"Title": "Post to SAP",
+							"Visible": true
+						}
+					],
+					"EmptySection": {
+						"FooterVisible": false
+					},
+					"Visible": true,
+					"_Name": "SectionButtonTable0",
+					"_Type": "Section.Type.ButtonTable"
+				}
+			],
+			"_Name": "SectionedTable",
+			"_Type": "Control.Type.SectionedTable"
+		}
+	],
+	"_Name": "GoodsIssue_Detail",
+	"_Type": "Page"
+}

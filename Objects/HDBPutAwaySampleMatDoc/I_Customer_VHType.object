@@ -1,0 +1,59 @@
+{
+	"Collection": [
+		"I_Customer_VH"
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "Customer",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "OrganizationBPName1",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "OrganizationBPName2",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Country",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "CityName",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "StreetName",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "CustomerName",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "CustomerAccountGroup",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "AuthorizationGroup",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "IsBusinessPurposeCompleted",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/SoltiusInnovMdk/Services/HDBPutAwaySampleMatDoc.service",
+	"_Name": "I_Customer_VHType"
+}

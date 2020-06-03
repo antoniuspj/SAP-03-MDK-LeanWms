@@ -1,0 +1,19 @@
+{
+	"Collection": [
+		"F_Mmim_Matgrp_Vh2"
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "MaterialGroup",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "MaterialGroupName",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/SoltiusInnovMdk/Services/HDBPutAwaySampleMatDoc.service",
+	"_Name": "F_Mmim_Matgrp_Vh2Type"
+}

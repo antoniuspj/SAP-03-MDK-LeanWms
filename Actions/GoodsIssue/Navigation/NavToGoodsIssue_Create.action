@@ -1,0 +1,6 @@
+{
+	"ModalPage": true,
+	"ModalPageFullscreen": false,
+	"PageToOpen": "/SoltiusInnovMdk/Pages/GoodsIssue/GoodsIssue_Create.page",
+	"_Type": "Action.Type.Navigation"
+}

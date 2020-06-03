@@ -1,0 +1,19 @@
+{
+	"Collection": [
+		"F_Mmim_Gmtype_Vh2"
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "GoodsMovementType",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "GoodsMovementTypeName",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/SoltiusInnovMdk/Services/PutAwaySAPMatDoc.service",
+	"_Name": "F_Mmim_Gmtype_Vh2Type"
+}

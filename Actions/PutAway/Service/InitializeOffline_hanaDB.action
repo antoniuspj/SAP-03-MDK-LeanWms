@@ -1,0 +1,13 @@
+{
+	"DefiningRequests": [
+		{
+			"AutomaticallyRetrievesStreams": false,
+			"Name": "PutawayProcess",
+			"Query": "PutawayProcess"
+		}
+	],
+	"OnFailure": "/SoltiusInnovMdk/Actions/PutAway/Service/InitializeOfflineFailureMessage.action",
+	"OnSuccess": "/SoltiusInnovMdk/Actions/PutAway/Service/InitializeOfflineSuccessMessage.action",
+	"Service": "/SoltiusInnovMdk/Services/PutAwayHDBAllEntity.service",
+	"_Type": "Action.Type.OfflineOData.Initialize"
+}

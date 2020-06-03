@@ -1,0 +1,99 @@
+{
+	"Collection": [
+		"F_Mmm_Docflow"
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "MaterialDocument",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "MaterialDocumentYear",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "MaterialDocumentItem",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "ItemCategoryGroup",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "ItemCategory",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "ReferenceDocument",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "ReferenceDocumentItem",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "CompanyCode",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "DocumentYear",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "GoodsMovementType",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "InventorySpecialStockType",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "GoodMovementRefDocType",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "OrderType",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "ConsumptionPosting",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "ReversedMaterialDocument",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "ReversedMaterialDocumentYear",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "ReversedMaterialDocumentItem",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "GoodsMovementTypeLongName",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/SoltiusInnovMdk/Services/PutAwaySAPMatDoc.service",
+	"_Name": "F_Mmm_DocflowType"
+}

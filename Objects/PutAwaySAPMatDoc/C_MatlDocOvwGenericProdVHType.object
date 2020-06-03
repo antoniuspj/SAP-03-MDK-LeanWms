@@ -1,0 +1,19 @@
+{
+	"Collection": [
+		"C_MatlDocOvwGenericProdVH"
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "CrossPlantConfigurableProduct",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "MaterialName",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/SoltiusInnovMdk/Services/PutAwaySAPMatDoc.service",
+	"_Name": "C_MatlDocOvwGenericProdVHType"
+}

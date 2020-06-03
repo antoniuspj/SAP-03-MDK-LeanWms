@@ -1,0 +1,86 @@
+{
+	"Collection": [
+		"SalesOrderItemSet"
+	],
+	"NavigationProperties": [
+		{
+			"Key": false,
+			"_Name": "ItemToProduct",
+			"_Type": "Product"
+		}
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "SoId",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "SoItemPos",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "ProductId",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Note",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "CurrencyCode",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "GrossAmount",
+			"_Type": "Edm.Decimal"
+		},
+		{
+			"Key": false,
+			"_Name": "GrossAmountExt",
+			"_Type": "Edm.Decimal"
+		},
+		{
+			"Key": false,
+			"_Name": "NetAmount",
+			"_Type": "Edm.Decimal"
+		},
+		{
+			"Key": false,
+			"_Name": "NetAmountExt",
+			"_Type": "Edm.Decimal"
+		},
+		{
+			"Key": false,
+			"_Name": "TaxAmount",
+			"_Type": "Edm.Decimal"
+		},
+		{
+			"Key": false,
+			"_Name": "TaxAmountExt",
+			"_Type": "Edm.Decimal"
+		},
+		{
+			"Key": false,
+			"_Name": "DeliveryDate",
+			"_Type": "Edm.DateTime"
+		},
+		{
+			"Key": false,
+			"_Name": "Quantity",
+			"_Type": "Edm.Decimal"
+		},
+		{
+			"Key": false,
+			"_Name": "QuantityUnit",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/SoltiusInnovMdk/Services/GoodsReceiptSAPAllEntity.service",
+	"_Name": "SalesOrderItem"
+}

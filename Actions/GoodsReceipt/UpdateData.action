@@ -1,0 +1,9 @@
+{
+	"ActivityIndicatorText": "Updating Data ...",
+	"Animated": true,
+	"CompletionMessage": "Success",
+	"Message": "Saving Data ...",
+	"OnSuccess": "/SoltiusInnovMdk/Actions/GoodsReceipt/OdataAction/GoodsReceiptUpdate.action",
+	"ShowActivityIndicator": true,
+	"_Type": "Action.Type.ProgressBanner"
+}

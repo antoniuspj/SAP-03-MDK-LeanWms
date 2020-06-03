@@ -1,0 +1,11 @@
+{
+	"ActionResult": {
+		"_Name": "init"
+	},
+	"ActivityIndicatorText": "Please Wait ...",
+	"OnFailure": "/SoltiusInnovMdk/Actions/GoodsReceipt/Service/CreateOpenServiceFailureMessage.action",
+	"OnSuccess": "/SoltiusInnovMdk/Actions/GoodsReceipt/Service/CreateOpenServiceSuccessMessage.action",
+	"Service": "/SoltiusInnovMdk/Services/GoodsReceiptSAPAllEntity.service",
+	"ShowActivityIndicator": true,
+	"_Type": "Action.Type.ODataService.Open"
+}

@@ -1,0 +1,44 @@
+{
+	"Collection": [
+		"I_MatlDocCostCenterVH"
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "CostCenter",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "ControllingArea",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "ValidityEndDate",
+			"_Type": "Edm.DateTime"
+		},
+		{
+			"Key": false,
+			"_Name": "ValidityStartDate",
+			"_Type": "Edm.DateTime"
+		},
+		{
+			"Key": false,
+			"_Name": "CostCenterName",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "CompanyCode",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "CostCtrResponsiblePersonName",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/SoltiusInnovMdk/Services/PutAwaySAPMatDoc.service",
+	"_Name": "I_MatlDocCostCenterVHType"
+}

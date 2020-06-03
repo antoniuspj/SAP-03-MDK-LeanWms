@@ -1,0 +1,114 @@
+{
+	"Collection": [
+		"DeliveryItems"
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "DELIVERYID",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": true,
+			"_Name": "ITEMID",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "MATERIALID",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "ITEMNAME",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "DELIVERYQUANTITYINSALESUOM",
+			"_Type": "Edm.Decimal"
+		},
+		{
+			"Key": false,
+			"_Name": "DELIVERYQUANTITYSALESUOMCODE",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "PICKEDQUANTITY",
+			"_Type": "Edm.Decimal"
+		},
+		{
+			"Key": false,
+			"_Name": "PICKEDQUANTITYUOMCODE",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "ITEMPICKINGSTATUSCODE",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "ITEMCONFIRMATIONSTATUSCODE",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "REFERENCEDOCUMENTID",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "REFERENCEDOCUMENTITEMID",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "PLANTCODE",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "PLANTNAME",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "ITEMCATEGORYCODE",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "ITEMCATEGORYNAME",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "EDITABLESTATUSCODE",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "CREATEDAT",
+			"_Type": "Edm.DateTime"
+		},
+		{
+			"Key": false,
+			"_Name": "CREATEBY",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "CHANGEDAT",
+			"_Type": "Edm.DateTime"
+		},
+		{
+			"Key": false,
+			"_Name": "CHANGEBY",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/SoltiusInnovMdk/Services/GoodsIssueHDBAllEntity.service",
+	"_Name": "DeliveryItemsType"
+}

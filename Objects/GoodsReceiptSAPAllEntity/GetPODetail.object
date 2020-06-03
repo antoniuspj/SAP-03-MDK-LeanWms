@@ -1,0 +1,144 @@
+{
+	"Collection": [
+		"GetPODetailSet"
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "Purchaseorder",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "VendName",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "PoNumber",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "CoCode",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "DocCat",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "DocType",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "DeleteInd",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Status",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "CreatedOn",
+			"_Type": "Edm.DateTime"
+		},
+		{
+			"Key": false,
+			"_Name": "CreatedBy",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Vendor",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "DocDate",
+			"_Type": "Edm.DateTime"
+		},
+		{
+			"Key": false,
+			"_Name": "Telephone",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "SupplVend",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "RejReason",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "PoItem",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "ChangedOn",
+			"_Type": "Edm.DateTime"
+		},
+		{
+			"Key": false,
+			"_Name": "Material",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "PurMat",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Plant",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "StoreLoc",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Quantity",
+			"_Type": "Edm.Decimal"
+		},
+		{
+			"Key": false,
+			"_Name": "Unit",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "RejInd",
+			"_Type": "Edm.Boolean"
+		},
+		{
+			"Key": false,
+			"_Name": "BaseUnit",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Customer",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Address",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/SoltiusInnovMdk/Services/GoodsReceiptSAPAllEntity.service",
+	"_Name": "GetPODetail"
+}

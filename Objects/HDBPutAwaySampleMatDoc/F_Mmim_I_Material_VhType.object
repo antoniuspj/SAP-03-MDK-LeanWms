@@ -1,0 +1,91 @@
+{
+	"Collection": [
+		"F_Mmim_I_Material_Vh"
+	],
+	"NavigationProperties": [
+		{
+			"Key": false,
+			"_Name": "to_BaseUnit",
+			"_Type": "I_UnitOfMeasureType"
+		},
+		{
+			"Key": false,
+			"_Name": "to_MaterialGroup",
+			"_Type": "I_MaterialGroupType"
+		},
+		{
+			"Key": false,
+			"_Name": "to_MaterialPlant",
+			"_Type": "Collection(I_MaterialPlantType)"
+		},
+		{
+			"Key": false,
+			"_Name": "to_MaterialType",
+			"_Type": "I_MaterialTypeType"
+		},
+		{
+			"Key": false,
+			"_Name": "to_Text",
+			"_Type": "Collection(I_MaterialTextType)"
+		},
+		{
+			"Key": false,
+			"_Name": "to_WeightUnit",
+			"_Type": "I_UnitOfMeasureType"
+		}
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "Material",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Material_Text",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "MaterialType",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "MaterialGroup",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "MaterialBaseUnit",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "MaterialGrossWeight",
+			"_Type": "Edm.Decimal"
+		},
+		{
+			"Key": false,
+			"_Name": "MaterialNetWeight",
+			"_Type": "Edm.Decimal"
+		},
+		{
+			"Key": false,
+			"_Name": "MaterialWeightUnit",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "MaterialManufacturerNumber",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "MaterialManufacturerPartNumber",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/SoltiusInnovMdk/Services/HDBPutAwaySampleMatDoc.service",
+	"_Name": "F_Mmim_I_Material_VhType"
+}

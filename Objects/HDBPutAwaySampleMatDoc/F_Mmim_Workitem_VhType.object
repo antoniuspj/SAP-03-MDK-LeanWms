@@ -1,0 +1,19 @@
+{
+	"Collection": [
+		"F_Mmim_Workitem_Vh"
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "WorkItem",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "WorkItemName",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/SoltiusInnovMdk/Services/HDBPutAwaySampleMatDoc.service",
+	"_Name": "F_Mmim_Workitem_VhType"
+}
