@@ -1,25 +1,25 @@
-{
-	"ActivityIndicatorText": "Activity Indicator Item",
-	"OnSuccess": "/APP_LEAN_WMS/Actions/MessageAction_Edit_Item_Success.action",
-	"Properties": {
-		"Bin": "#Control:FCAssignBin/#SelectedValue",
-		"DeliveryNote": "#Control:FCDeliveryNote/#Value",
-		"HeaderText": "#Control:FCHeaderText/#Value",
-		"ItemText": "#Control:FCItemText/#Value",
-		"MaterialDocument": "#Control:FCMaterialDocument/#Value",
-		"Palette": "#Control:FCAssignPalette/#SelectedValue",
-		"PartDescription": "#Control:FCPartDescription/#Value",
-		"PartNumber": "#Control:FCPartNumber/#Value",
-		"Plant": "#Control:FCPlant/#Value",
-		"PurchaseOrder": "#Control:FCPurchaseOrder/#Value",
-		"Quantity": "#Control:FCQuantityUOM/#Value",
-		"Sloc": "#Control:FCLineItem/#Value",
-		"VendorDescription": "#Control:FCVendorDescription/#Value"
-	},
-	"ShowActivityIndicator": true,
-	"Target": {
-		"EntitySet": "PutawayProcess",
-		"Service": "/APP_LEAN_WMS/Services/hanaDB.service"
-	},
-	"_Type": "Action.Type.ODataService.CreateEntity"
-}
+// {
+// 	"ActivityIndicatorText": "Activity Indicator Item",
+// 	"OnSuccess": "/APP_LEAN_WMS/Actions/MessageAction_Edit_Item_Success.action",
+// 	"Properties": {
+// 		"Bin": "#Control:FCAssignBin/#SelectedValue",
+// 		"DeliveryNote": "#Control:FCDeliveryNote/#Value",
+// 		"HeaderText": "#Control:FCHeaderText/#Value",
+// 		"ItemText": "#Control:FCItemText/#Value",
+// 		"MaterialDocument": "#Control:FCMaterialDocument/#Value",
+// 		"Palette": "#Control:FCAssignPalette/#SelectedValue",
+// 		"PartDescription": "#Control:FCPartDescription/#Value",
+// 		"PartNumber": "#Control:FCPartNumber/#Value",
+// 		"Plant": "#Control:FCPlant/#Value",
+// 		"PurchaseOrder": "#Control:FCPurchaseOrder/#Value",
+// 		"Quantity": "#Control:FCQuantityUOM/#Value",
+// 		"Sloc": "#Control:FCLineItem/#Value",
+// 		"VendorDescription": "#Control:FCVendorDescription/#Value"
+// 	},
+// 	"ShowActivityIndicator": true,
+// 	"Target": {
+// 		"EntitySet": "PutawayProcess",
+// 		"Service": "/APP_LEAN_WMS/Services/hanaDB.service"
+// 	},
+// 	"_Type": "Action.Type.ODataService.CreateEntity"
+// }

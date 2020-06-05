@@ -1,4 +1,4 @@
 {
 	"_Type": "Action.Type.Navigation",
-	"PageToOpen": "/MDK_Innovation/Pages/GoodsIssue/GoodsIssue_List.page"
+	"PageToOpen": "/SoltiusInnovMdk/Pages/GoodsIssue/GoodsIssue_List.page"
 }

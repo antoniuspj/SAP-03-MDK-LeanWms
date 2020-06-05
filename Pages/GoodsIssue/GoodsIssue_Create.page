@@ -7,7 +7,7 @@
 				"SystemItem": "Cancel"
 			},
 			{
-				"OnPress": "/MDK_Innovation/Actions/GoodsIssue/GoodsIssue_CreateEntity.action",
+				// "OnPress": "/MDK_Innovation/Actions/GoodsIssue/GoodsIssue_CreateEntity.action",
 				"Position": "right",
 				"SystemItem": "Save"
 			}

@@ -2,7 +2,7 @@
 	"Caption": "DeliveryHeader",
 	"ActionBar": {
 		"Items": [{
-			"OnPress": "/MDK_Innovation/Actions/GoodsIssue/NavToGoodsIssue_Create.action",
+			// "OnPress": "/MDK_Innovation/Actions/GoodsIssue/NavToGoodsIssue_Create.action",
 			"Position": "right",
 			"SystemItem": "Add"
 		}]
@@ -19,7 +19,7 @@
 				"DetailImage": "",
 				"DetailImageIsCircular": false,
 				"Icons": [],
-				"OnPress": "/MDK_Innovation/Actions/GoodsIssue/NavToGoodsIssue_Detail.action",
+				// "OnPress": "/MDK_Innovation/Actions/GoodsIssue/NavToGoodsIssue_Detail.action",
 				"StatusImage": "",
 				"Title": "{DELIVERYID}",
 				"Footnote": "{SHIPTOPARTYNAME}",
@@ -37,7 +37,7 @@
 			},
 			"Target": {
 				"EntitySet": "DeliveryHeader",
-				"Service": "/MDK_Innovation/Services/HANADBSCPServices.service",
+				"Service": "/SoltiusInnovMdk/Services/GoodsIssueHDBAllEntity.service",
 				"QueryOptions": ""
 			},
 			"_Type": "Section.Type.ObjectTable"
