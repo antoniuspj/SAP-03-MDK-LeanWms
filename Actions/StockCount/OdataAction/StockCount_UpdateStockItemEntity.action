@@ -1,0 +1,15 @@
+{
+	"OnFailure": "/SoltiusInnovMdk/Actions/StockCount/OdataAction/Message/UpdateEntityFailureMessage.action",
+	"OnSuccess": "/SoltiusInnovMdk/Actions/StockCount/OdataAction/Message/UpdateEntitySuccessMessage.action",
+	"Properties": {
+		"ITEMID": "#Control:FC_ITEMID/#Value",
+		"ITEMQUANTITY": "#Control:FC_QUANTITY/#Value",
+		"PHYSICALID": "#Control:FC_PHYSICALID/#Value"
+	},
+	"Target": {
+		"EntitySet": "StockItem",
+		"ReadLink": "{@odata.readLink}",
+		"Service": "/SoltiusInnovMdk/Services/StockCountServices.service"
+	},
+	"_Type": "Action.Type.ODataService.UpdateEntity"
+}

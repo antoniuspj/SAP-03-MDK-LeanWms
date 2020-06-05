@@ -2,6 +2,6 @@
 	"AppId": "com.soltius.innovation",
 	"DestinationName": "HANADBSCP",
 	"OfflineEnabled": false,
-	"PathSuffix": "/mdk/hana/content/services/DeliveryOrderSRV.xsodata",
+	"PathSuffix": "/mdk/hana/content/services/StockSRV.xsodata",
 	"ServiceUrl": "/destinations/mobileservices"
 }

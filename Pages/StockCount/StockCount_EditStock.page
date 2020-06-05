@@ -1,0 +1,76 @@
+{
+	"ActionBar": {
+		"Items": [
+			{
+				"OnPress": "/SoltiusInnovMdk/Actions/StockCount/OdataAction/StockCount_UpdateStockItemEntity.action",
+				"Position": "right",
+				"SystemItem": "Save",
+				"Text": "Save",
+				"Visible": true
+			}
+		]
+	},
+	"Caption": "StockCount_EditStock",
+	"Controls": [
+		{
+			"Sections": [
+				{
+					"Controls": [
+						{
+							"Caption": "Physical ID",
+							"IsEditable": false,
+							"Value": "{PHYSICALID}",
+							"_Name": "FC_PHYSICALID",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						},
+						{
+							"Caption": "Item ID",
+							"IsEditable": false,
+							"Value": "{ITEMID}",
+							"_Name": "FC_ITEMID",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						},
+						{
+							"Caption": "Material ID",
+							"IsEditable": false,
+							"Value": "{MATERIALID}",
+							"_Name": "FormCellSimpleProperty2",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						},
+						{
+							"Caption": "Item Name",
+							"IsEditable": false,
+							"Value": "{ITEMNAME}",
+							"_Name": "FormCellSimpleProperty3",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						},
+						{
+							"Caption": "Quantity",
+							"Value": "{ITEMQUANTITY}",
+							"_Name": "FC_QUANTITY",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						},
+						{
+							"Caption": "Quantity UOM Code",
+							"Value": "{ITEMQUANTITYUOMCODE}",
+							"_Name": "FormCellSimpleProperty5",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						},
+						{
+							"Caption": "Plant",
+							"IsEditable": false,
+							"Value": "{PLANTCODE}",
+							"_Name": "FormCellSimpleProperty6",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						}
+					],
+					"Visible": true
+				}
+			],
+			"_Name": "FormCellContainer0",
+			"_Type": "Control.Type.FormCellContainer"
+		}
+	],
+	"_Name": "StockCount_EditStock",
+	"_Type": "Page"
+}

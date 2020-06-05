@@ -34,6 +34,7 @@
 							"Visible": true
 						},
 						{
+							"OnPress": "/SoltiusInnovMdk/Actions/StockCount/Service/CreateService.action",
 							"TextAlignment": "center",
 							"Title": "Physical Count",
 							"Visible": true

@@ -1,0 +1,11 @@
+{
+	"ActionResult": {
+		"_Name": "init"
+	},
+	"ActivityIndicatorText": "Initializing Application...",
+	"OnFailure": "/SoltiusInnovMdk/Actions/StockCount/Service/CreateOpenServiceFailureMessage.action",
+	"OnSuccess": "/SoltiusInnovMdk/Actions/StockCount/Service/OpenService.action",
+	"Service": "/SoltiusInnovMdk/Services/StockCountServices.service",
+	"ShowActivityIndicator": true,
+	"_Type": "Action.Type.ODataService.Create"
+}

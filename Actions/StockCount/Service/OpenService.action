@@ -1,0 +1,9 @@
+{
+	"ActionResult": {
+		"_Name": "init"
+	},
+	"OnFailure": "/SoltiusInnovMdk/Actions/StockCount/Service/CreateOpenServiceFailureMessage.action",
+	"OnSuccess": "/SoltiusInnovMdk/Actions/StockCount/Service/CreateOpenServiceSuccessMessage.action",
+	"Service": "/SoltiusInnovMdk/Services/StockCountServices.service",
+	"_Type": "Action.Type.ODataService.Open"
+}

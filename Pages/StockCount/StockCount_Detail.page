@@ -1,0 +1,55 @@
+{
+	"ActionBar": {
+		"Items": [
+			{
+				"Position": "right",
+				"Text": "Submit",
+				"Visible": true
+			}
+		]
+	},
+	"Caption": "StockCount_Detail",
+	"Controls": [
+		{
+			"Sections": [
+				{
+					"ObjectHeader": {
+						"DetailImageIsCircular": false,
+						"HeadlineText": "{PHYSICALID}",
+						"Subhead": "{{#Property:PLANTCODE}}/{{#Property:STORAGELOCATION}}"
+					},
+					"Visible": true,
+					"_Name": "SectionObjectHeader0",
+					"_Type": "Section.Type.ObjectHeader"
+				},
+				{
+					"EmptySection": {
+						"FooterVisible": false
+					},
+					"ObjectCell": {
+						"AccessoryType": "none",
+						"DetailImageIsCircular": false,
+						"Footnote": "{PHYSICALID}",
+						"OnPress": "/SoltiusInnovMdk/Actions/StockCount/Navigation/NavToStockCount_EditStock.action",
+						"PreserveIconStackSpacing": false,
+						"StatusText": "{{#Property:ITEMQUANTITY}}/{{#Property:ITEMQUANTITYUOMCODE}}",
+						"Subhead": "{ITEMNAME}",
+						"SubstatusText": "{PLANTCODE}",
+						"Title": "{MATERIALID}"
+					},
+					"Target": {
+						"EntitySet": "{{#Property:@odata.readLink}}/StockItem",
+						"Service": "/SoltiusInnovMdk/Services/StockCountServices.service"
+					},
+					"Visible": true,
+					"_Name": "SectionObjectTable0",
+					"_Type": "Section.Type.ObjectTable"
+				}
+			],
+			"_Name": "SectionedTable0",
+			"_Type": "Control.Type.SectionedTable"
+		}
+	],
+	"_Name": "StockCount_Detail",
+	"_Type": "Page"
+}
