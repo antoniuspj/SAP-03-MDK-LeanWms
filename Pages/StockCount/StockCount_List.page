@@ -1,0 +1,43 @@
+{
+	"Caption": "StockCount_List",
+	"Controls": [
+		{
+			"Sections": [
+				{
+					"EmptySection": {
+						"FooterVisible": false
+					},
+					"Header": {
+						"UseTopPadding": false
+					},
+					"ObjectCell": {
+						"AccessoryType": "none",
+						"DetailImageIsCircular": false,
+						"Footnote": "{STORAGELOCATION}",
+						"OnPress": "/SoltiusInnovMdk/Actions/StockCount/Navigation/NavToStockCount_Detail.action",
+						"PreserveIconStackSpacing": false,
+						"StatusText": "Doc Date",
+						"Subhead": "{PLANTCODE}",
+						"SubstatusText": "Plan Count Date",
+						"Title": "{PHYSICALID}"
+					},
+					"Search": {
+						"BarcodeScanner": true,
+						"Enabled": true
+					},
+					"Target": {
+						"EntitySet": "StockHeader",
+						"Service": "/SoltiusInnovMdk/Services/StockCountServices.service"
+					},
+					"Visible": true,
+					"_Name": "SectionObjectTable0",
+					"_Type": "Section.Type.ObjectTable"
+				}
+			],
+			"_Name": "SectionedTable0",
+			"_Type": "Control.Type.SectionedTable"
+		}
+	],
+	"_Name": "StockCount_List",
+	"_Type": "Page"
+}

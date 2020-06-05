@@ -1,0 +1,9 @@
+{
+	"Animated": true,
+	"Duration": 2,
+	"IsIconHidden": true,
+	"Message": "Application data service initialized",
+	"NumberOfLines": 2,
+	"OnSuccess": "/SoltiusInnovMdk/Actions/StockCount/Navigation/NavToStockCount_List.action",
+	"_Type": "Action.Type.ToastMessage"
+}
