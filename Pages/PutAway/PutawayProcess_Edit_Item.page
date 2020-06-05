@@ -87,7 +87,7 @@
 							"IsEditable": true,
 							"IsVisible": true,
 							"KeyboardType": "Number",
-							// "OnValueChange": "/APP_LEAN_WMS/Rules/FormCell/putawayProcess.js",
+							"OnValueChange": "/APP_LEAN_WMS/Rules/FormCell/putawayProcess.js",
 							"PlaceHolder": "Input Quantity",
 							"_Name": "FCQuantityUOM",
 							"_Type": "Control.Type.FormCell.SimpleProperty"
@@ -109,25 +109,25 @@
 							"IsSearchCancelledAfterSelection": true,
 							"IsSelectedSectionEnabled": true,
 							"IsVisible": true,
-							// "OnValueChange": "/APP_LEAN_WMS/Rules/FormCell/putawayProcess.js",
-							// "PickerItems": {
-							// 	"ObjectCell": {
-							// 		// "Description": "{DESCRIPTION}",
-							// 		"DetailImageIsCircular": false,
-							// 		"Icons": [
-							// 		],
-							// 		"PreserveIconStackSpacing": true,
-							// 		"Styles": {
-							// 		},
-							// 		// "Subhead": "{QUANTITY}",
-							// 		// "Title": "{PALETTE_ID}"
-							// 	},
-							// 	// "ReturnValue": "{QUANTITY}",
-							// 	// "Target": {
-							// 	// 	"EntitySet": "palette",
-							// 	// 	"Service": "/APP_LEAN_WMS/Services/hanaDB.service"
-							// 	// }
-							// },
+							"OnValueChange": "/APP_LEAN_WMS/Rules/FormCell/putawayProcess.js",
+							"PickerItems": {
+								"ObjectCell": {
+									"Description": "{DESCRIPTION}",
+									"DetailImageIsCircular": false,
+									"Icons": [
+									],
+									"PreserveIconStackSpacing": true,
+									"Styles": {
+									},
+									"Subhead": "{QUANTITY}",
+									"Title": "{PALETTE_ID}"
+								},
+								"ReturnValue": "{QUANTITY}",
+								"Target": {
+									"EntitySet": "palette",
+									"Service": "/APP_LEAN_WMS/Services/hanaDB.service"
+								}
+							},
 							"PickerPrompt": "Please select one single item",
 							"Search": {
 								"BarcodeScanner": true,
@@ -159,14 +159,14 @@
 							"IsSearchCancelledAfterSelection": true,
 							"IsSelectedSectionEnabled": true,
 							"IsVisible": true,
-							// "PickerItems": {
-								// "DisplayValue": "{BIN}",
-								// "ReturnValue": "{BIN}",
-								// "Target": {
-									// "EntitySet": "bin",
-									// "Service": "/APP_LEAN_WMS/Services/hanaDB.service"
-								// }
-							// },
+							"PickerItems": {
+								"DisplayValue": "{BIN}",
+								"ReturnValue": "{BIN}",
+								"Target": {
+									"EntitySet": "bin",
+									"Service": "/APP_LEAN_WMS/Services/hanaDB.service"
+								}
+							},
 							"PickerPrompt": "Please select one single item",
 							"Search": {
 								"BarcodeScanner": true,
