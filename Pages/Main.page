@@ -12,7 +12,7 @@
 							"Visible": true
 						},
 						{
-							"OnPress": "/SoltiusInnovMdk/Actions/GoodsIssue/Service/CreateService.action",
+							"OnPress": "/SoltiusInnovMdk/Actions/GoodsIssue/Navigation/NavToGoodsIssue_Search.action",
 							"TextAlignment": "center",
 							"Title": "Goods Issue",
 							"Visible": true
@@ -34,7 +34,7 @@
 							"Visible": true
 						},
 						{
-							"OnPress": "/SoltiusInnovMdk/Actions/StockCount/Service/CreateService.action",
+							"OnPress": "/SoltiusInnovMdk/Actions/StockCount/Navigation/NavToStockCount_List.action",
 							"TextAlignment": "center",
 							"Title": "Physical Count",
 							"Visible": true
