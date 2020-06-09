@@ -6,35 +6,41 @@
 				{
 					"Buttons": [
 						{
-							"OnPress": "/SoltiusInnovMdk/Actions/GoodsReceipt/Service/CreateService.action",
+							"OnPress": "/SoltiusInnovMdk/Actions/GoodsReceipt/Navigation/NavToList.action",
+							"Target": "",
 							"TextAlignment": "center",
 							"Title": "Goods Receipt",
 							"Visible": true
 						},
 						{
 							"OnPress": "/SoltiusInnovMdk/Actions/GoodsIssue/Navigation/NavToGoodsIssue_Search.action",
+							"Target": "",
 							"TextAlignment": "center",
 							"Title": "Goods Issue",
 							"Visible": true
 						},
 						{
 							"OnPress": "/SoltiusInnovMdk/Actions/PutAway/Service/Initialize_Offline_Odata_Material_Document.action",
+							"Target": "",
 							"TextAlignment": "center",
 							"Title": "Put Away",
 							"Visible": true
 						},
 						{
+							"Target": "",
 							"TextAlignment": "center",
 							"Title": "Picking",
 							"Visible": true
 						},
 						{
+							"Target": "",
 							"TextAlignment": "center",
 							"Title": "Goods Transfer",
 							"Visible": true
 						},
 						{
 							"OnPress": "/SoltiusInnovMdk/Actions/StockCount/Navigation/NavToStockCount_List.action",
+							"Target": "",
 							"TextAlignment": "center",
 							"Title": "Physical Count",
 							"Visible": true
@@ -43,15 +49,18 @@
 					"EmptySection": {
 						"FooterVisible": false
 					},
+					"Target": "",
 					"Visible": true,
 					"_Name": "SectionButtonTable0",
 					"_Type": "Section.Type.ButtonTable"
 				}
 			],
+			"Target": "",
 			"_Name": "SectionedTable0",
 			"_Type": "Control.Type.SectionedTable"
 		}
 	],
+	"Target": "",
 	"ToolBar": {
 		"Controls": [
 			{
@@ -59,6 +68,7 @@
 				"Clickable": true,
 				"Enabled": true,
 				"OnPress": "/SoltiusInnovMdk/Actions/Logout.action",
+				"Target": "",
 				"Visible": true,
 				"_Name": "LogoutToolbarItem",
 				"_Type": "Control.Type.ToolbarItem"

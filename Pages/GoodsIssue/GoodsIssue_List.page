@@ -1,50 +1,55 @@
 {
-	"Caption": "DeliveryHeader",
 	"ActionBar": {
-		"Items": [{
-			"OnPress": "/SoltiusInnovMdk/Actions/GoodsIssue/Navigation/NavToGoodsIssue_Create.action",
-			"Position": "right",
-			"SystemItem": "Add"
-		}]
+		"Items": [
+			{
+				"OnPress": "/SoltiusInnovMdk/Actions/GoodsIssue/Navigation/NavToGoodsIssue_Create.action",
+				"Position": "right",
+				"SystemItem": "Add"
+			}
+		]
 	},
-	"Controls": [{
-		"Sections": [{
-			"Header": {
-
-				"UseTopPadding": false
-			},
-			"ObjectCell": {
-				"AccessoryType": "disclosureIndicator",
-				"Description": "",
-				"DetailImage": "",
-				"DetailImageIsCircular": false,
-				"Icons": [],
-				"OnPress": "/SoltiusInnovMdk/Actions/GoodsIssue/Navigation/NavToGoodsIssue_Detail.action",
-				"StatusImage": "",
-				"Title": "{DELIVERYID}",
-				"Footnote": "{SHIPTOPARTYNAME}",
-				"PreserveIconStackSpacing": false,
-				"StatusText": "{DELIVERYPICKINGSTATUSCODE}",
-				"Subhead": "{SHIPTOPARTYID}",
-				"SubstatusText": "{DELIVERYGOODSISSUESTATUSCODE}"
-			},
-			"Search": {
-				"Enabled": true,
-				"Placeholder": "Item Search",
-				"BarcodeScanner": true,
-				"Delay": 500,
-				"MinimumCharacterThreshold": 3
-			},
-			"Target": {
-				"EntitySet": "DeliveryHeader",
-				"Service": "/SoltiusInnovMdk/Services/GoodsIssueHDBAllEntity.service",
-				"QueryOptions": ""
-			},
-			"_Type": "Section.Type.ObjectTable"
-		}],
-		"_Type": "Control.Type.SectionedTable",
-		"_Name": "SectionedTable"
-	}],
-	"_Type": "Page",
-	"_Name": "GoodsIssue_List"
+	"Caption": "DeliveryHeader",
+	"Controls": [
+		{
+			"Sections": [
+				{
+					"EmptySection": {
+						"FooterVisible": false
+					},
+					"Header": {
+						"UseTopPadding": false
+					},
+					"ObjectCell": {
+						"AccessoryType": "disclosureIndicator",
+						"DetailImageIsCircular": false,
+						"Footnote": "{SHIPTOPARTYNAME}",
+						"OnPress": "/SoltiusInnovMdk/Actions/GoodsIssue/Navigation/NavToGoodsIssue_Detail.action",
+						"PreserveIconStackSpacing": false,
+						"StatusText": "{DELIVERYPICKINGSTATUSCODE}",
+						"Subhead": "{SHIPTOPARTYID}",
+						"SubstatusText": "{DELIVERYGOODSISSUESTATUSCODE}",
+						"Title": "{DELIVERYID}"
+					},
+					"Search": {
+						"BarcodeScanner": true,
+						"Delay": 500,
+						"Enabled": true,
+						"MinimumCharacterThreshold": 3,
+						"Placeholder": "Item Search"
+					},
+					"Target": {
+						"EntitySet": "DeliveryHeader",
+						"QueryOptions": "",
+						"Service": "/SoltiusInnovMdk/Services/GoodsIssueHDBAllEntity.service"
+					},
+					"_Name": "SectionObjectTable0",
+					"_Type": "Section.Type.ObjectTable"
+				}
+			],
+			"_Name": "SectionedTable",
+			"_Type": "Control.Type.SectionedTable"
+		}
+	],
+	"_Name": "GoodsIssue_List",
+	"_Type": "Page"
 }

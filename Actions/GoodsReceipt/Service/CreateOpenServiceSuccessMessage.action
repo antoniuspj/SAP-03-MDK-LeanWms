@@ -4,6 +4,5 @@
 	"IsIconHidden": true,
 	"Message": "Application data service initialized",
 	"NumberOfLines": 2,
-	"OnSuccess": "/SoltiusInnovMdk/Actions/GoodsReceipt/Navigation/NavToList.action",
 	"_Type": "Action.Type.ToastMessage"
 }

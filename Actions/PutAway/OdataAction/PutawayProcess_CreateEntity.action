@@ -1,6 +1,6 @@
 {
 	"ActivityIndicatorText": "Activity Indicator Item",
-	"OnSuccess": "/APP_LEAN_WMS/Actions/MessageAction_Edit_Item_Success.action",
+	"OnSuccess": "/SoltiusInnovMdk/Actions/PutAway/OdataAction/Messages/MessageAction_Edit_Item_Success.action",
 	"Properties": {
 		"Bin": "#Control:FCAssignBin/#SelectedValue",
 		"DeliveryNote": "#Control:FCDeliveryNote/#Value",
@@ -19,7 +19,7 @@
 	"ShowActivityIndicator": true,
 	"Target": {
 		"EntitySet": "PutawayProcess",
-		"Service": "/APP_LEAN_WMS/Services/hanaDB.service"
+		"Service": "/SoltiusInnovMdk/Services/PutAwayHDBAllEntity.service"
 	},
 	"_Type": "Action.Type.ODataService.CreateEntity"
 }

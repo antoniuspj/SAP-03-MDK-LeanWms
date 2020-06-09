@@ -1,9 +1,8 @@
 {
 	"Animated": true,
 	"Duration": 2,
-	"Message": "Entity deleted",
-	"Icon": "",
 	"IsIconHidden": false,
+	"Message": "Entity deleted",
 	"NumberOfLines": 2,
 	"OnSuccess": "/SoltiusInnovMdk/Actions/GoodsIssue/CloseModalPage_Complete.action",
 	"_Type": "Action.Type.ToastMessage"

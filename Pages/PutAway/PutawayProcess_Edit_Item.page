@@ -87,7 +87,7 @@
 							"IsEditable": true,
 							"IsVisible": true,
 							"KeyboardType": "Number",
-							"OnValueChange": "/APP_LEAN_WMS/Rules/FormCell/putawayProcess.js",
+							"OnValueChange": "/SoltiusInnovMdk/Rules/PutAway/FormCell/putawayProcess.js",
 							"PlaceHolder": "Input Quantity",
 							"_Name": "FCQuantityUOM",
 							"_Type": "Control.Type.FormCell.SimpleProperty"
@@ -109,7 +109,7 @@
 							"IsSearchCancelledAfterSelection": true,
 							"IsSelectedSectionEnabled": true,
 							"IsVisible": true,
-							"OnValueChange": "/APP_LEAN_WMS/Rules/FormCell/putawayProcess.js",
+							"OnValueChange": "/SoltiusInnovMdk/Rules/PutAway/FormCell/putawayProcess.js",
 							"PickerItems": {
 								"ObjectCell": {
 									"Description": "{DESCRIPTION}",
@@ -125,7 +125,7 @@
 								"ReturnValue": "{QUANTITY}",
 								"Target": {
 									"EntitySet": "palette",
-									"Service": "/APP_LEAN_WMS/Services/hanaDB.service"
+									"Service": "/SoltiusInnovMdk/Services/PutAwayHDBAllEntity.service"
 								}
 							},
 							"PickerPrompt": "Please select one single item",
@@ -164,7 +164,7 @@
 								"ReturnValue": "{BIN}",
 								"Target": {
 									"EntitySet": "bin",
-									"Service": "/APP_LEAN_WMS/Services/hanaDB.service"
+									"Service": "/SoltiusInnovMdk/Services/PutAwayHDBAllEntity.service"
 								}
 							},
 							"PickerPrompt": "Please select one single item",
